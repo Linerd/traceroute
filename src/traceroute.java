@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class Main {
+public class traceroute {
 	static String indexURL = "http://www.traceroute.org/";
 
 	public static void main(String[] args) throws Exception {
@@ -29,7 +29,6 @@ public class Main {
 			while (selectByCountry.hasNext()) {
 				Element selected = selectByCountry.next();
 				String url = selected.attr("href");
-				System.out.println(selected.text());
 				try {
 					Document subdoc = Jsoup.connect(url).timeout(10000).get();
 					Elements meta = subdoc.select("html head meta");
@@ -37,6 +36,7 @@ public class Main {
 						subdoc = Jsoup.connect(
 								meta.attr("content").split("=")[1]).get();
 					Element form = subdoc.select("form").first();
+					System.out.println(selected.text());
 					// if (form.hasAttr("action"))
 					// System.out.println(form.attr("action"));
 					// if (form.hasAttr("method"))

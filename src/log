@@ -1,0 +1,2190 @@
+Argentina
+Cooperativa Telefonica de Villa Gobernador Galvez Ltda (AS11815)
+<form action="/index.php" method="POST">
+  Testing Point: 
+ <select name="server"> <option value="RouteServer" selected>TelVGG-LG-1</option> </select>
+ <br> Query Type: 
+ <select name="action"> <option class="box1" value="">-- IPv4 --</option> <option class="box1" value="show ip bgp" selected>show ip bgp &lt;ip&gt;</option> <option class="box1" value="show ip bgp summary">show ip bgp summary</option> <option class="box1" value="show ip route">show ip route &lt;ip&gt;</option> <option class="box1" value="show ip bgp regexp">show ip bgp regexp &lt;expression&gt;</option> <option class="box1" value="show ip bgp dampening dampened-paths">show ip bgp dampening dampened-paths</option> <option class="box1" value="show ip bgp dampening flap-statistics">show ip bgp dampening flap-statistics</option> <option class="box2" value="">-- IPv6 --</option> <option class="box2" value="show bgp ipv6 unicast">show bgp ipv6 unicast &lt;ip/prefixlen&gt;</option> <option class="box2" value="show bgp ipv6 unicast summary">show bgp ipv6 unicast summary</option> <option class="box2" value="show ipv6 route">show ipv6 route &lt;ip/prefixlen&gt;</option> <option class="box2" value="show bgp ipv6 unicast regexp">show bgp ipv6 unicast regexp &lt;expression&gt;</option> <option class="box3" value="">-- Non-specific --</option> <option class="box3" value="ping">ping &lt;ip&gt;</option> <option class="box3" value="traceroute">traceroute &lt;ip&gt;</option> <option class="box3" value="show interface">show interface</option> <option class="box3" value="show environment all">show environment all</option> </select>
+ <br> Optional Arguments: 
+ <input type="text" name="args" value="222.130.133.187">
+ <br> 
+ <input type="submit" value="Query"> 
+</form>
+Cooperativa Telefonica Pinamar Ltda (AS14232)
+<form method="post" action="/cgi-bin/traceroute"> 
+ <b>Destination host (defaults to your host or proxy/cache):</b> 
+ <br> 
+ <input name="dest" type="text" size="65" maxlength="65" value="222.130.133.187"> 
+ <input type="submit" value="Go"> 
+ <p> Options: <br> <input name="verbose" type="checkbox"> Enable verbose reporting<br> <input name="norevdns" type="checkbox"> Disable per-hop reverse DNS lookup (can speed up traceroute)<br> <br> </p>
+ <pre>
+
+
+</pre> 
+ <p> </p>
+ <hr noshade size="1"> 
+ <table cellspacing="0" cellpadding="0" width="100%"> 
+  <tbody>
+   <tr> 
+    <td align="right"><small>Administrative comments to <a href="mailto:soporte@telpin.com.ar">soporte@telpin.com.ar</a></small></td> 
+   </tr> 
+  </tbody>
+ </table>   
+</form>
+Viafacil (AS16814)
+<form methode="post" action="/traceroute/index.php">
+  Ingrese IP o Host 
+ <input type="text" name="host" value="222.130.133.187"> 
+ <input type="submit" name="submit" value="Traceroute">
+</form>
+SubiTuWeb (AS18747)
+<form methode="post" action="/nettools/traceroute.php">
+  Ingrese IP o Host 
+ <input type="text" name="host" value="222.130.133.187"> 
+ <input type="submit" name="submit" value="Traceroute">
+</form>
+Armenia
+Australia
+Telstra (AS1221)
+<form method="POST" action="/cgi-bin/trace"> 
+ <b>Enter the desired destination host.domain or IPv4 or IPv6 address: <input size="50" name="destination"></b> 
+</form>
+Hafey.Org (AS10145)
+<form>
+ <hr>
+ <label>This is a searchable index. Enter search keywords: <input name="isindex"></label>
+ <hr>
+</form>
+Austria
+traceroute.at (AS3248)
+null
+Tele2 (AS8437)
+null
+Telekom Austria (AS8447)
+<form accept-charset="utf-8" action="/business/suche" onsubmit="if (headerSearchInput.value == headerSearchInput.defaultValue || headerSearchInput.value.replace(/^\s+|\s+$/g,'') == '') return false; return true;"> 
+ <label accesskey="4" for="headerSearchInput">Suche (Alt+4):</label> 
+ <input type="text" onfocus="if(this.value == this.defaultValue) this.value = ''" onblur="if(this.value == '') this.value = this.defaultValue" value="A1.net durchsuchen" name="queryString" class="headerSearchMiddle" id="headerSearchInput"> 
+ <input type="hidden" value="" name="searchcontext"> 
+ <input type="hidden" value="" name="language"> 
+ <input type="submit" value="" name="" class="headerSearchRight" title="A1.net durchsuchen"> 
+</form>
+hotze.com (AS8596)
+null
+Globedom (AS12401)
+<form method="POST" action="/cgi-bin/traceit"> 
+ <table class="user" bgcolor="#FCED77" border="0"> 
+  <tbody>
+   <tr>
+    <td align="RIGHT"><span class="active">Host or IP:</span></td>
+    <td><input type="TEXT" name="HOSTNAME" value="222.130.133.187" class="userin"></td>
+   </tr> 
+   <tr>
+    <td align="RIGHT"><span class="active">Don't Resolve hostnames:</span></td>
+    <td><input type="CHECKBOX" name="RESOLVE" value="TRUE"></td>
+   </tr> 
+   <tr>
+    <td colspan="2" align="CENTER"><input type="SUBMIT" class="userbutton" value="Traceroute!"></td>
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+max4eu (AS20751)
+null
+nemox.net (AS31394)
+<form action="index.pl" method="get" name="trace"> 
+ <font face="verdana, helvetica" size="2"> Hostname oder IP-Adresse:<br> <input type="text" name="t"> <input type="submit" value="Abfrage starten"> </font> 
+</form>
+Crossip Communications GmbH (AS44286)
+<form method="post" action="/netquery/index.php"> 
+ <table width="60%" border="1" cellspacing="0" cellpadding="1"> 
+  <tbody>
+   <tr> 
+    <td width="50%"><b>Host Information</b> </td> 
+    <td><b>Host Connectivity</b></td> 
+   </tr> 
+   <tr valign="top"> 
+    <td> <p> <input type="radio" name="queryType" value="lookup"> Resolve/Reverse Lookup<br> <input type="radio" name="queryType" value="dig"> Get DNS Records<br> <input type="radio" name="queryType" value="wwwhois"> Whois (Web)<br> <input type="radio" name="queryType" value="arin"> Whois (IP owner)</p> </td> 
+    <td> <input type="radio" name="queryType" value="checkp"> Check port: <input type="text" name="port" size="5" maxlength="5" value="80"> <br> 
+     <!--          <input type="radio" name="queryType" value="p">
+          Ping host<br> --> <input type="radio" name="queryType" value="tr" checked> Traceroute to host<br> <input type="radio" name="queryType" value="all"> Do it all</td> 
+   </tr> 
+  </tbody>
+ </table> 
+ <table width="60%" border="0" cellspacing="0" cellpadding="1">
+  <tbody>
+   <tr> 
+    <td colspan="2"> 
+     <div align="center">
+      Indicate IP or host name 
+      <input type="text" name="target" value="here..." onfocus="m(this)"> 
+      <input type="submit" name="Submit" value="Check with crossip"> 
+     </div> </td> 
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+MakeNewMedia Communications GmbH (AS44765)
+<form name="login" action="index.php" method="post"> 
+ <table> 
+  <tbody>
+   <tr> 
+    <td class="left"><label for="uname">Username</label></td> 
+    <td class="right"><input type="text" name="uname" id="uname" value=""></td> 
+   </tr> 
+   <tr> 
+    <td class="left"><label for="upass">Password</label></td> 
+    <td class="right"><input type="password" name="upass" id="upass" value="" autocomplete="off"></td> 
+   </tr> 
+   <tr> 
+    <td colspan="2" class="right"> <a class="link_as_button" href="lostpassword.php">Lost password</a> <button type="submit" name="submit" tabindex="3">Login</button> </td> 
+   </tr> 
+  </tbody>
+ </table> 
+ <input type="hidden" name="action" value="login"> 
+</form>
+Bangladesh
+Belarus
+Beltelecom (AS6697)
+null
+Belgium
+Rack66 (AS34144)
+null
+Bolivia
+Brasil
+Rede Rio de Computadores (AS2715)
+<form action="/cgi-bin/nph-traceroute" method="GET"> 
+ <input type="hidden" name="choice" value="yes"> 
+ <input type="submit" value="YES">
+</form>
+Zintana Corp. (AS11242)
+<form action="http://187.0.128.3/cgi-bin/tracert2.cgi" method="POST"> 
+ <p align="center">&nbsp;</p> 
+ <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#999999">Traceroute </font></b></font> <font color="#000000"></font> <input type="hidden" name="tool" value="2"> <input type="TEXT" name="dest" value="" size="45" maxlength="60"> <input type="IMAGE" value="Iniciar" name="SUBMIT" img="" src="go.gif"> <br> </p> 
+ <div align="center"> 
+  <font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#999999">Brazil 2001</font></b></font> 
+  <font color="#999999"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br> Florianópolis - SC<br> Zintana Corp©</font></b><br> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><a href="http://www.zintana.com.br" target="_self">http://www.zintana.com.br</a></b></font><br> <font size="1"></font></font>
+  <p></p> 
+ </div> 
+</form>
+Registro.br (AS22548)
+<form title="Busca no site" action="https://www.google.com/search" method="get">
+ <input type="hidden" value="nic.br;registro.br;" name="domains">
+ <input type="hidden" value="iso-8859-1" name="ie">
+ <input type="hidden" value="iso-8859-1" name="oe">
+ <input type="hidden" value="registro.br" name="sitesearch">
+ <input type="text" name="q" class="form-control" placeholder="Pesquisar" autofocus>
+</form>
+Bulgaria
+Sellinet (AS30789)
+null
+Canada
+Triumf (AS271)
+null
+Carleton University (AS549)
+<form action="/cgi-bin/traceroute.pl" method="GET"> 
+ <input type="hidden" name="choice" value="yes"> 
+ <input type="submit" value="YES">
+</form>
+Network Tools (AS10577)
+<form method="get" action="default.asp" name="mainform"> 
+ <div class="row">
+  <input id="radiobutton_5" type="radio" name="prog" value="express" checked> 
+  <label class="radioitem" for="radiobutton_5">Express</label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_1" type="radio" name="prog" value="ping"> 
+  <label class="radioitem" for="radiobutton_1">Ping</label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_3" type="radio" name="prog" value="trace"> 
+  <label class="radioitem" for="radiobutton_3">Trace</label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_4" type="radio" name="prog" value="whois"> 
+  <label class="radioitem" for="radiobutton_4">Whois <span style="font-size:10px; "><a href="http://network-tools.com/idn-convert.asp" target="_blank">(IDN Conversion Tool)</a></span></label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_6" type="radio" name="prog" value="dnsrec"> 
+  <label class="radioitem" for="radiobutton_6">DNS Records <span style="font-size:10px; "><a href="http://network-tools.com/nslook/">(Advanced Tool)</a></span></label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_7" type="radio" name="prog" value="network"> 
+  <label class="radioitem" for="radiobutton_7">Network Lookup</label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_8" type="radio" name="prog" value="sbl"> 
+  <label class="radioitem" for="radiobutton_8">Spam Blacklist Check</label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_10" type="radio" name="prog" value="urlun"> 
+  <label class="radioitem" for="radiobutton_10">URL Decode</label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_11" type="radio" name="prog" value="urlen"> 
+  <label class="radioitem" for="radiobutton_11">URL Encode</label>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_12" type="radio" name="prog" value="httphead"> 
+  <label class="radioitem" for="radiobutton_12">HTTP Headers</label> 
+  <span style="font-size:10px; margin-left:10px;"><input type="checkbox" id="checkbox_1" name="SSL" value="yes"> <label class="radioitem" for="checkbox_1">SSL</label></span>
+ </div> 
+ <div class="row">
+  <input id="radiobutton_13" type="radio" name="prog" value="test"> 
+  <label class="radioitem" for="radiobutton_13">Email Tests</label>
+ </div>
+ <br> 
+ <div class="row" style="border-bottom-width:0px;font-size:10px; margin-left:10px;">
+  <input id="radiobutton_9" type="checkbox" name="base" value="yes"> 
+  <label class="radioitem">Convert Base-10 to IP</label>
+ </div> 
+ <input tabindex="1" id="field" name="host" type="text" value="222.130.133.187" size="25">
+ <br>
+ <br> 
+ <input class="go" type="submit" value="GO!"> 
+</form>
+Chile
+Universidad Tecnica Federico Santa Maria (AS26610)
+<form>
+ <hr>
+ <font size="2" face="Verdana, Arial, Helvetica, sans-serif"><label>This is a searchable index. Enter search keywords: <input name="isindex"></label>
+  <hr> <a href="traceroute.txt">Source CODE</a>. More traceroute services from <a href="http://www.traceroute.org">www.traceroute.org</a> </font>
+</form>
+China
+Linkwan Beijing (AS4808)
+null
+Linkwan Shanghai (AS4808)
+null
+Colombia
+Costa Rica
+Croatia
+Cyprus
+ThunderWorx (AS13033)
+<form action="/cgi-bin/public/traceroute.pl" method="GET">
+  Enter target name or address: 
+ <input type="text" size="30" name="target"> then push 'Enter' key. 
+</form>
+Czech Republic
+Denmark
+Azero (AS9167)
+<form id="searchbox" class="printhide" method="post" action="/support/vaerktoej/search/default.asp"> 
+ <div style="margin-top:10px;margin-right:10px;"> 
+  <input type="text" name="search" size="20"> 
+  <input type="submit" name="submit" class="button-search" value="Søg" title="Tryk her for at søge hos Azero eller tjekke om domæner er ledige."> 
+ </div> 
+</form>
+Neolink (AS30736)
+null
+Webname.dk (AS39023)
+null
+Ecuador
+Estonia
+Faroe Islands
+Finland
+France
+ETSI (AS8567)
+<form name="QUERY" action="http://supervisor.etsi.org/Tools/Traceroute/traceroute.pl" method="post"> 
+ <table width="100%" border="0"> 
+  <tbody> 
+   <tr> 
+    <td width="50%">Select your destination host <input name="dest" size="20"><br> <input type="checkbox" value="OFF" name="RESOLVE">Do not resolve addresses to hostnames.</td> 
+    <td width="50%"><i>Note: leave the field empty if you want to Traceroute between ETSI and the place where you are connected).</i></td> 
+   </tr> 
+  </tbody> 
+ </table> 
+ <p align="center"><input type="submit" value="Trace"> <input type="reset" value="Reset"></p> 
+</form>
+SDV (AS8839)
+<form action="index.php" method="get" name="fo" id="fo"> 
+ <div id="header">
+  <a href="http://network.sdv.fr"><img src="/sdv_network.png" alt="SdV Plurimédia"></a>
+ </div> 
+ <center> 
+  <span class="big"> IPv4 &amp; IPv6 Traceroute </span> 
+ </center> 
+ <br> With this tool, you can do a traceroute from our network. 
+ <br>
+ <br> 
+ <select name="v6"><option value="0">Traceroute (v4)</option><option value="1">Traceroute (v6)</option></select>
+ <input type="text" name="host" value=""> 
+</form>
+Stella-Net (AS16211)
+null
+Linkbynet (AS25593)
+<form name="aspnetForm" method="post" action="Default.aspx?Page=ping_tracert" id="aspnetForm"> 
+ <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4NTY5ODM3MDBkZOP09Si9UKuk3Sp1YtM5Z7oCE19l"> 
+ <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334"> 
+ <script type="text/javascript">
+<!--
+__BaseName = "ctl00_CphMaster_";
+// -->
+</script> 
+ <script type="text/javascript">
+		<!--
+			function __GetServerElementById(id) {
+				return document.getElementById(__BaseName + id);
+			}
+		// -->
+		</script> 
+ <div id="HeaderDiv"> 
+  <img src="GetFile.aspx?File=logo_linkbynet_intra.gif" alt="LINKBYNET"> 
+ </div> 
+ <div id="ContainerDiv"> 
+  <div id="SidebarDiv"> 
+   <div id="SidebarHeaderDiv"> 
+    <!-- Used for layout purposes only --> 
+   </div> 
+   <div id="SidebarContentDiv"> 
+    <div style="float: right;">
+     <a href="RSS.aspx" title="Update notifications for LINKBYNET SUPPORT (RSS 2.0)"><img src="Themes/LINKBYNET_INTRA/Images/RSS.png" alt="RSS"></a>
+    </div> 
+    <a id="Navigation_0"></a>
+    <h3 class="separator">Navigation</h3>
+    <ul>
+     <li><b><a class="pagelink" href="MainPage.ashx" title="Accueil">Accueil</a></b></li>
+     <li><a class="systemlink" href="Category.aspx" title="Catégories">Catégories</a></li>
+     <li><a class="systemlink" href="AllPages.aspx" title="Toutes les pages">Toutes les pages</a></li>
+    </ul>
+    <br>
+    <small><b>Recherche</b></small>
+    <br> 
+    <input type="text" id="TxtSearchBox" onkeydown="javascript:var keycode; if(window.event) keycode = event.keyCode; else keycode = event.which; if(keycode == 10 || keycode == 13) { document.location = 'Search.aspx?Query=' + encodeURI(document.getElementById('TxtSearchBox').value); return false; }">
+    <br>
+    <br>
+    <br>
+    <a id="Administration_1"></a>
+    <h3 class="separator">Administration</h3>
+    <ul>
+     <li><a class="systemlink" href="Admin.aspx" title="Admin">Admin</a></li>
+     <li><a class="systemlink" href="Language.aspx" title="Choix de la langue">Choix de la langue</a></li>
+     <li><a class="systemlink" href="Register.aspx" title="Créer un compte">Créer un compte</a></li>
+     <li><a class="systemlink" href="Edit.aspx" title="Créer une page">Créer une page</a></li>
+     <li><a class="systemlink" href="Upload.aspx" title="Gestionnaire de fichiers">Gestionnaire de fichiers</a></li>
+     <li><a class="systemlink" href="Login.aspx" title="Login/Logout">Login/Logout</a></li>
+     <li><a class="systemlink" href="Profile.aspx" title="Votre Profil">Votre Profil</a></li>
+    </ul> 
+   </div> 
+   <div id="SidebarFooterDiv"> 
+    <!-- Used for layout purposes only --> 
+   </div> 
+  </div> 
+  <div id="MainDiv"> 
+   <div id="MainHeaderDiv"> 
+    <!-- Used for layout purposes only --> 
+   </div> 
+   <script type="text/javascript">
+<!--
+var __cookiePath = "/";
+// -->
+</script> 
+   <script type="text/javascript">
+    <!--
+        function __ShowAllTrail() {
+            try {
+                document.getElementById("BreadcrumbsDivMin").style["display"] = "none";
+                document.getElementById("BreadcrumbsDivAll").style["display"] = "";
+                __SetStatus("1");
+            }
+            catch(ex) { }
+            return false;
+        }
+        function __HideTrail() {
+            try {
+                document.getElementById("BreadcrumbsDivMin").style["display"] = "";
+                document.getElementById("BreadcrumbsDivAll").style["display"] = "none";
+                __SetStatus("0");
+            }
+            catch(ex) { }
+            return false;
+        }
+        
+        function __CreateCookie(name, value, days) {
+	        if(days) {
+		        var date = new Date();
+		        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+		        var expires = "; expires=" + date.toGMTString();
+	        }
+	        else var expires = "";
+	        document.cookie = name + "=" + value + expires + "; path=" + __cookiePath;
+        }
+
+        function __ReadCookie(name) {
+	        var nameEQ = name + "=";
+	        var ca = document.cookie.split(';');
+	        for(var i =0; i < ca.length; i++) {
+		        var c = ca[i];
+		        while(c.charAt(0) == ' ') c = c.substring(1, c.length);
+		        if(c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+	        }
+	        return null;
+        }
+
+        function __EraseCookie(name) {
+	        __CreateCookie(name, "", -1);
+        }
+        
+        function __SetStatus(open) {
+            __CreateCookie("ScrewTurnWikiBCT", open, 365);
+        }
+        function __GetStatus() {
+            var value = __ReadCookie("ScrewTurnWikiBCT");
+            if(value) return value;
+            else return "0";
+        }
+        
+    // -->
+    </script> 
+   <a id="PageTop"></a>
+   <div id="PageHeaderDiv">
+    <div id="EditHistoryLinkDiv">
+     <a id="DiscussLink" href="ping_tracert.ashx?Discuss=1&amp;NoRedirect=1">Discuter (0)</a>
+     <a id="ViewCodeLink" href="ping_tracert.ashx?Code=1">Voir le Code de la Page</a>
+     <a id="HistoryLink" href="History.aspx?Page=ping_tracert">Historique</a>
+    </div>
+    <h1 class="pagetitle">PING &amp; TRACERT Page Test</h1>
+    <div id="PrintLinkDiv">
+     <a id="PrintLink" href="Print.aspx?Page=ping_tracert" target="_blank" title="Version imprimable">Imprimer</a>
+    </div>
+    <div id="RssLinkDiv">
+     <a id="RssLink" href="RSS.aspx?Page=ping_tracert" title="Avis de mise à jour de cette Page (RSS 2.0)">RSS</a>
+    </div>
+    <div id="PageInfoDiv">
+     Modifié: 24/01/2008 18:28 par 
+     <a href="Message.aspx?Username=admin">admin</a> - 
+     <a href="AllPages.aspx?Cat=-"><i>Non-Catégorisé</i></a>
+    </div>
+    <div id="BreadcrumbsDiv">
+     <div id="BreadcrumbsDivMin">
+      » 
+      <b><a href="ping_tracert.ashx">PING &amp; TRACERT Page Test</a> </b>
+     </div>
+     <div id="BreadcrumbsDivAll" style="display: none;">
+      <a href="#" onclick="javascript:return __HideTrail();" title="Cliquez ici pour cacher le fil d'ariane">[X]</a> » 
+      <b><a href="ping_tracert.ashx">PING &amp; TRACERT Page Test</a> </b>
+     </div>
+    </div>
+   </div>
+   <div id="PageContentDiv">
+    <iframe frameborder="0" height="850" scrolling="auto" src="/network_tools_iframe.asp" width="800"></iframe> 
+   </div> 
+   <script type="text/javascript">
+    <!--
+        if(__GetStatus() == "1") __ShowAllTrail();
+    // -->
+    </script> 
+   <div id="MainFooterDiv"> 
+    <!-- Used for layout purposes only --> 
+   </div> 
+  </div> 
+ </div> 
+ <div id="FooterDiv"> 
+  <p class="small">SUPPORT WEBSITE propulsé par <a class="externallink" href="http://www.screwturn.eu" title="ScrewTurn Wiki" target="_blank">ScrewTurn Wiki</a> version 2.0.36 © 2008 LINKBYNET. Tous droits réservés.</p> 
+ </div> 
+</form>
+WZ-Conseil (AS29402)
+<form name="traceroute" action="" method="post"> 
+ <b>IP or Host :</b> 
+ <input type="text" name="host" style="width:200px"> 
+ <input type="submit" name="send" value="Trace"> 
+</form>
+Jaguar Networks (AS30781)
+<form enctype="multipart/form-data" method="POST" name="791b1c314372ed0a44b6f8c3170dcbc235c30e1e"> 
+ <fieldset> 
+  <ul> 
+   <li> <input type="text" name="login" value="" size="10" class="input-block-level" placeholder="Votre identifiant" tabindex="1"> </li> 
+   <li> <input type="password" name="password" value="" size="10" class="input-block-level" placeholder="Votre mot de passe" tabindex="2"> </li> 
+  </ul> 
+  <button type="submit" name="Connexion" value="Connexion" class="btn btn-large btn-blue btn-block withspinner">Connexion</button> 
+  <hr class="margin-xm"> 
+  <a href="#forgot" class="link pull-right f11" data-toggle="tab">J'ai oublié mon mot de passe</a> 
+ </fieldset> 
+ <input type="hidden" name="page_id" value="d8c6523f9105aaa93c3c6faf60c148e4456c0cbf">
+ <input type="hidden" name="form_id" value="791b1c314372ed0a44b6f8c3170dcbc235c30e1e">
+ <input type="hidden" name="origin" value="">
+</form>
+Germany
+Friedberg University (AS680)
+<form id="cse-search-box" action="http://www.thm.de/site/thm-suche.html">
+ <input type="hidden" name="cx" value="001061943598456540175:t_dqkmapwxa"> 
+ <input type="hidden" name="cof" value="FORID:11"> 
+ <input type="hidden" name="ie" value="UTF-8"> 
+ <input id="q" onfocus="if(this.value=='Suchen...') this.value='';" onblur="if(this.value=='') this.value='Suchen...';" type="text" name="q" value="Suchen..." size="25"> 
+ <input type="submit" name="sa" value=">">
+</form>
+HanNet (AS1275)
+<form method="post" action="/cgi-bin/nph-trace.cgi" enctype="multipart/form-data">
+  IP Address: 
+ <input type="text" name="addr" value="222.130.133.187" size="64" maxlength="255">
+ <input type="submit" name="start" value=" Start ">
+ <br> Method: 
+ <select name="method"> <option value="traceroute">traceroute</option> <option value="tracepath">tracepath</option> </select> 
+</form>
+SpaceNet (AS5539)
+<form method="post" action="https://www.space.net/globale-navigation/suche/index.html?tx_indexedsearch_pi2%5Baction%5D=search&amp;tx_indexedsearch_pi2%5Bcontroller%5D=Search">
+ <input name="tx_indexedsearch_pi2[search][sword]" class="searchbox-sword" type="text">
+ <input type="hidden" name="tx_indexedsearch_pi2[search][_sections]" value="0">
+ <input name="tx_indexedsearch_pi2[search][submitButton]" src="https://www.space.net/fileadmin/templates/images/btn_search.png" alt="Suche" class="searchbox-button" type="image">
+</form>
+Schlund+Partner GmbH & Co (AS8560)
+<form id="search" method="get" action="http://www.google.com/custom" title="eckenfels.net Search"> 
+ <div> 
+  <label for="q" title="Search eckenfels.net">eckenfels.net:</label> 
+  <input type="hidden" name="domains" value="eckenfels.net"> 
+  <input type="hidden" name="sitesearch" value="eckenfels.net"> 
+  <input type="text" id="q" name="q" accesskey="s" size="30"> 
+  <input type="submit" id="submit" value="Search"> 
+ </div> 
+</form>
+FFS.net Communications (AS8560)
+null
+Mons New Media (AS8560)
+<form method="post" action="/index.php">
+  IP or Host 
+ <input type="text" name="host" value="222.130.133.187">&nbsp; 
+ <input type="submit" name="submit" value="Trace"> 
+</form>
+Plusserver (AS8972)
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin: 0px;"> 
+ <input type="hidden" name="cmd" value="_s-xclick"> 
+ <input type="hidden" name="hosted_button_id" value="DGHDS4GJQ7THL"> 
+ <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online."> 
+ <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1"> 
+</form>
+Ausburg Net (AS9115)
+<form method="get"> 
+ <b>IP to trace to:</b> 
+ <input type="text" name="ip" value="222.130.133.187"> 
+ <select name="mode"> <option value="0" selected>parallel (quick)</option> <option value="1">traditional (slow)</option> <option value="2">show AS (very slow)</option> <option value="3">Max. TTL 64 (slow)</option> <option value="4">Max. TTL 128 (slow)</option> </select> 
+ <input type="submit" value="OK"> 
+</form>
+n@work (AS9211)
+null
+Plus-Line (AS12306)
+<form accept-charset="utf-8" method="get" action="/netze/suche/" id="heisetopnavi_search" role="search"> 
+ <fieldset> 
+  <input value="" name="q" class="search_text" type="text" placeholder="in heise Netze suchen">
+  <input alt="Los" src="//www.heise.de/icons/ho/heise_online_lupe.gif" name="search_submit" class="search_submit" type="image"> 
+  <input value="search" name="rm" class="search_hidden" type="hidden"> 
+ </fieldset> 
+</form>
+regfish GmbH (AS12306)
+<form method="GET" action="" onsubmit="new Ajax.Updater('result','traceroute',{ method:'GET', onCreate: function(tx) { $('resultc').show(); $('result').update('').setStyle({'color':'#c8c8c8'}); }, onComplete: function(tx) { $('result').setStyle({'color':'#000'}); }, onInteractive: function(tx) { $('result').update(tx.responseText); }, parameters: { target:$F('target') } });return false;">
+ <input type="text" name="target" value="222.130.133.187" id="target" size="30"> 
+ <input type="submit" value="starten">
+</form>
+Issociate GmbH (AS12312)
+<form method="post" action="/" enctype="multipart/form-data">
+  Trace to: 
+ <input type="text" name="target5"> 
+ <input type="submit" name=".submit">
+</form>
+SpeedKom GmbH (AS12931)
+<form action="/lookingglass.php" method="POST"> 
+ <table> 
+  <tbody>
+   <tr>
+    <td><input type="text" name="hostname" size="30%" value=""></td>
+   </tr> 
+   <tr>
+    <td><input type="radio" checked name="actiontype" value="traceroute"><span class="smallfontb">Traceroute</span></td>
+   </tr> 
+   <tr>
+    <td><input type="radio" name="actiontype" value="ping"><span class="smallfontb">Ping</span></td>
+   </tr> 
+   <tr>
+    <td><input type="radio" name="actiontype" value="traceroute6"><span class="smallfontb">Traceroute IPv6 (z.B. www.isc.org)</span></td>
+   </tr> 
+   <tr>
+    <td><input type="radio" name="actiontype" value="ping6"><span class="smallfontb">Ping IPv6</span></td>
+   </tr> 
+   <tr>
+    <td>&nbsp;</td>
+   </tr> 
+   <tr>
+    <td align="center"><input type="submit" value="Anfrage senden"></td>
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+InterNetWire (AS13246)
+<form method="POST" action="/index.php?id=57">
+ <fieldset>
+  <label>Bitte Host oder IP eingeben:</label>
+  <input type="text" name="host" value="222.130.133.187">
+  <br>
+  <label>Traceroute</label>
+  <input type="submit" class="sbm" name="submit" value="Start">
+ </fieldset>
+</form>
+Host Europe (AS20773)
+<form method="GET" action="traceroute.cgi">
+  IP/Host: 
+ <input type="TEXT" name="addr" size="30" maxlength="80"> &nbsp; 
+ <input type="SUBMIT" name="mode" value="mtr"> &nbsp; 
+ <input type="SUBMIT" name="mode" value="trace"> &nbsp; 
+ <input type="SUBMIT" name="mode" value="ping"> &nbsp; Force IPv4 
+ <input type="CHECKBOX" name="force_4">&nbsp; Force IPv6 
+ <input type="CHECKBOX" name="force_6">&nbsp; no DNS 
+ <input type="CHECKBOX" name="force_no_dns">
+ <br> 
+ <br> 
+</form>
+TELTA Citynetz Eberswalde (AS21032)
+<form method="GET" action="http://www.graupe.de/cgi-bin/traceroute.pl"> 
+ <table width="700" border="0" cellspacing="0" cellpading="0">
+  <tbody>
+   <tr class="tablehead">
+    <td colspan="4" align="center">Traceroute von www.graupe.de<br>AS 21032</td>
+   </tr>
+   <tr class="tabletext">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr class="tabletext">
+    <td width="165">&nbsp;Hostname / IP-Adresse : </td>
+    <td width="260"><input type="text" name="host" value="222.130.133.187" size="40"></td>
+    <td width="220" align="right">Anfragen pro Hop : (1-6) &nbsp;</td>
+    <td><input type="text" name="queries" value="3" size="2" maxlength="1"></td>
+   </tr>
+   <tr class="tabletext">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr class="tabletext">
+    <td>&nbsp;<input type="submit"></td>
+    <td width="200"><input type="checkbox" name="reverse"> Ohne Reverse Lookup</td>
+    <td>&nbsp;</td>
+    <td></td>
+   </tr>
+   <tr class="tabletext">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+   </tr>
+  </tbody>
+ </table>
+</form>
+Kloth.Net (AS24940)
+null
+Insode (AS24940)
+<form method="post" action="/" enctype="multipart/form-data">
+  Trace to: 
+ <input type="text" name="target6"> 
+ <input type="submit" name=".submit">
+</form>
+IPduh.com (AS24940)
+<form name="thaform" method="POST" action=" "></form>
+Gaertner Datensysteme (AS24956)
+<form method="POST" enctype="application/x-www-form-urlencoded" action="/cgi-bin/looking-glass.cgi"> 
+ <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+  <tbody>
+   <tr> 
+    <td> 
+     <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+      <tbody>
+       <tr>
+        <td>Query type:&nbsp;</td> 
+        <td><input type="radio" name="type" value="ping" checked>ping &nbsp; <input type="radio" name="type" value="ping6">ping6 &nbsp; <input type="radio" name="type" value="traceroute">traceroute &nbsp; <input type="radio" name="type" value="traceroute6">traceroute6 &nbsp; <input type="radio" name="type" value="tracepath">tracepath &nbsp; <input type="radio" name="type" value="tracepath6">tracepath6 &nbsp; </td> 
+       </tr> 
+       <tr>
+        <td>Destination:&nbsp;</td> 
+        <td><input type="text" name="dest" size="30" value="222.130.133.187"></td> 
+       </tr> 
+       <tr>
+        <td>dns lookups:&nbsp;</td> 
+        <td><input type="checkbox" name="dns" value="y"></td> 
+       </tr> 
+       <tr> 
+        <td valign="top"><input type="submit" name="Action" value="Go!"></td> 
+        <td>&nbsp;</td> 
+       </tr> 
+      </tbody>
+     </table> </td>
+    <td align="right"><img src="https://www.gaertner.de/images/ncc-member-logo-s.jpg"></td> 
+   </tr>
+  </tbody>
+ </table> 
+</form>
+PauService Internet Services (AS29158)
+<form action="/customer/sid/9e46a851c2391f199cd4675e49ad70f88cbaa202c44bce10/index2.pl"> 
+ <input name="t"> 
+ <input type="submit" value="go"> 
+</form>
+Probe Networks (AS29686)
+<form>
+ <hr>
+ <label>Enter the desired destination host.domain or IP address: <input name="isindex"></label>
+ <hr>
+</form>
+NetIP (AS31442)
+<form class="border" method="get" action="http://www.netip.de/search"> 
+ <fieldset> 
+  <legend> IP / Domain </legend> 
+  <input type="text" name="query" size="50" maxlength="100" value="222.130.133.187"> 
+  <input type="submit" value="Lookup">
+  <br> 
+  <span>Enter the IP address that you want to lookup.</span> 
+ </fieldset> 
+</form>
+interscholz Internet Servivces GmbH & Co. KG (AS33843)
+<form name="lg" method="post" action="lg.php"> 
+ <table border="0"> 
+  <tbody>
+   <tr>
+    <td>Funktion:</td>
+   </tr> 
+   <tr>
+    <td> <select name="func"> <option value="tcptraceroute">Traceroute (IPv4)</option> <option value="traceroute">Traceroute (IPv6)</option> </select> </td>
+   </tr>
+   <tr>
+    <td> Bitte wählen Sie die IP-Version aus: <input type="radio" name="ipv" value="ipv4" checked>IPv4 <input type="radio" name="ipv" value="ipv6">IPv6 </td>
+   </tr> 
+   <tr>
+    <td>Zieladresse/Domainname:</td>
+   </tr> 
+   <tr>
+    <td> <input type="text" name="target" size="40" value=""> </td>
+   </tr> 
+   <tr>
+    <td><input type="submit" value="abfragen"> <input type="button" name="reset" value="zuruecksetzen" onclick="document.lg.target.value='';document.lg.target.focus();"></td>
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+Kosten (AS33984)
+<form action="/traceroute.php" method="post" id="form"> 
+ <input class="hidden" name="do" type="hidden" value="1"> 
+ <label for="input">* IP oder Host</label> 
+ <input name="input" type="text" value="222.130.133.187">
+ <br> 
+ <hr> 
+ <input id="submit" name="submit" value="Traceroute ermitteln" type="submit"> 
+</form>
+Greece
+National Technical University of Athens (AS3323)
+<form method="get" action="/cgi-bin/rtracert"> 
+ <input name="name" size="30" maxlength="256" value=""> 
+ <input type="submit" value="traceroute"> 
+</form>
+Athens University of Economics and Business (AS5408)
+<form class="centertxt" action="" name="input" method="post"> 
+ <select name="service"> <option value="traceroute">traceroute</option> <option value="ping">ping</option> <option value="nslookup">nslookup</option> </select> 
+ <label for="address" class="small"> <i class="icon-globe"></i> Hostname or IP address </label> 
+ <input type="text" name="address"> 
+ <input type="submit" name="submit" value="Submit"> 
+</form>
+University of Ioannina (AS8581)
+<form methode="post" action="/balomenos/utils/traceroute/trace.php">
+  Enter IP or Host 
+ <input type="text" name="host" value="222.130.133.187"> 
+ <input type="submit" name="submit" value="Traceroute!">
+</form>
+Technological Educational Institution of Athens (AS9069)
+null
+Grenada
+Hong Kong
+Hungary
+Iceland
+RHnet - Iceland University Research Network (AS15474)
+<form action="/cgi-bin/rh-traceroute" method="get">
+  Fullt nafn e�a IP tala 
+ <input type="text" name="ip"> 
+</form>
+Skyggnir (AS29689)
+<form method="get" action="http://www.google.com/custom" target="_top"> 
+ <table bgcolor="#ffffff"> 
+  <tbody>
+   <tr>
+    <td nowrap valign="top" align="left" height="32"> <a href="http://www.google.com/"> <img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" align="middle"></a> <input type="text" name="q" size="31" maxlength="255" value=""> <input type="submit" name="sa" value="Search"> <input type="hidden" name="client" value="pub-0401583334238416"> <input type="hidden" name="forid" value="1"> <input type="hidden" name="channel" value="7742388315"> <input type="hidden" name="ie" value="ISO-8859-1"> <input type="hidden" name="oe" value="ISO-8859-1"> <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"> <input type="hidden" name="hl" value="en"> </td>
+   </tr>
+  </tbody>
+ </table> 
+</form>
+India
+delDSL Internet Pvt. Ltd (AS23872)
+<form method="post" action="/cgi-bin/trace/chaseroute.pl" enctype="multipart/form-data"> 
+ <table width="100%" height="90"> 
+  <tbody>
+   <tr>
+    <td bgcolor="lightgreen"><b><font color="black" size="7">delDSL Internet Pvt. Ltd.</font></b></td>
+   </tr> 
+   <tr>
+    <td bgcolor="lightgreen"><b><font color="red" size="3">Warning... Tracing routes can take some time</font></b></td>
+   </tr> 
+  </tbody>
+ </table> 
+ <table width="100%" height="40"> 
+  <tbody>
+   <tr>
+    <td bgcolor="GREEN"><b>TYPE IN THE IP Address or HOSTNAME TO BE TRACED'ed (Like 192.168.1.10) or (www.deldsl.com)</b></td>
+   </tr> 
+  </tbody>
+ </table> 
+ <br>
+ <input type="text" name="tracee">
+ <br>
+ <h3><input type="submit" name="START TRACING" value="START TRACING"> <input type="reset" name="clear" value="clear"></h3>
+ <label><input type="checkbox" name="dontresolve" value="ON" checked>Dont Resolve IP Address To Hostname </label>
+ <div>
+  <input type="hidden" name=".cgifields" value="dontresolve">
+ </div>
+</form>
+Indonesia
+CBNNet (AS4787)
+null
+Institut Teknologi Bandung (AS4796)
+<form action="/traceroute/traceroute.pl" method="GET"> 
+ <input type="hidden" name="choice" value="yes"> 
+ <input type="submit" value="YES">
+</form>
+Nusanet (AS 23679)
+<form method="post" action="/lookingglass"> 
+ <select name="lookingglass"> <option value="ping"> ping </option> <option value="tracepath"> tracepath </option> <option value="traceroute"> traceroute </option> </select> 
+ <input type="text" name="destination" value="" size="16"> 
+ <input type="submit" name="submit" value="OK"> 
+</form>
+MCM Net (AS 38211)
+<form action="index.php" method="get">
+ <font size="-1"> Address / Hostname (IPv4) <input type="text" name="address"> Counter <input type="text" name="counter" size="4" value="5"> &lt;=5 <br> <img src="code.php"> Answer <input type="text" size="4" value="90" name="answer"> <input type="submit" value="go">  <p></p>
+  <hr width="100%"> <font size="-1">This page may not be used by any automated scripts without prior permission. <br><a href="http://www.mcm.net.id">hosting by MCMnet</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.bitwizard.nl/mtr/index.html" target="_blank">tool using MTR</a> <br>MCMnet - ISP - Indonesia </font> </font>
+</form>
+Iran
+Ireland
+Vistatec (AS34505)
+null
+Israel
+Italy
+Bilink (AS8816)
+<form method="post" action="/cgi-bin/trace.cgi" enctype="multipart/form-data">
+  Enter 
+ <a href="http://www.med.unibs.it/~marchesi/pps97/course/section1/network.html">IP-address (dotted quad) or FQDN</a> to trace: 
+ <input type="text" name="trace_to" size="30" maxlength="30"> 
+ <input type="submit" name="Start" value="Start">
+</form>
+Sysnet (AS12474)
+<form name="form1" method="post" action="/cgi-bin/traceroute.cgi"> 
+ <input type="text" name="dominio" size="47" maxlength="54" value=""> 
+ <br> 
+ <input type="submit" value="Invia la richiesta" name="submit"> 
+ <input type="reset" value="Pulizia" name="reset"> 
+</form>
+Bibiesse (AS12514)
+<form onsubmit="CheckMyForm(document.SEARCH.terms.value);" name="SEARCH" method="POST" action="exebbs/finder.cgi"> 
+ <input type="TEXT" name="terms" size="13"> 
+ <input type="HIDDEN" name="boolean" value="AND"> 
+ <input type="HIDDEN" name="case" value="Insensitive"> 
+ <input type="SUBMIT" value="search"> 
+</form>
+Seeweb (AS12637)
+<form action="/cgi/trc.cgi" target="_top" method="post"> 
+ <input type="text" value="" name="h" size="30"> 
+ <input type="submit" value="Esegui Traceroute"> 
+</form>
+ITGate Network (AS12779)
+<form>
+ <hr>
+ <label>This is a searchable index. Enter search keywords: <input name="isindex"></label>
+ <hr>
+</form>
+Japan
+Kenya
+Korea
+Kyrgyzstan
+Latvia
+Lithuania
+Luxembourg
+Macau
+Malaysia
+Malta
+Mexico
+The Netherlands
+New Zealand
+Pakistan
+Nexlinx (AS17563)
+<form name="lg" method="post" action="lgg.php"> 
+ <table border="0"> 
+  <tbody>
+   <tr>
+    <td>Select:</td>
+   </tr> 
+   <tr>
+    <td> <select name="lg_type"> <option>TraceRoute(TW)</option> <option>TraceRoute(ITI-PTCL)</option> <option>NexTrace(TW)</option> <option>NexTrace(ITI-PTCL)</option> <option>Ping(TW)</option> <option>Ping(ITI-PTCL)</option> <option>WhoIs</option> <option>IPWhoIs</option> <option>NSLookUp</option> <option>SOA A</option> <option>SOA MX</option> <option>SOA NS</option> <option>SOA ANY</option> </select> </td>
+   </tr> 
+   <tr>
+    <td>FQDN OR IP:</td>
+   </tr> 
+   <tr>
+    <td> <input type="text" name="target" size="40" value="222.130.133.187"> </td>
+   </tr> 
+   <tr>
+    <td><input type="submit" value="GO"> <input type="button" name="reset" value="RST" onclick="document.lg.target.value='';document.lg.target.focus();"></td>
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+Paraguay
+Philippines
+Poland
+Internet Partners (AS6714)
+<form method="post" action="/cgi-bin/traceroute.cgi" enctype="multipart/form-data"> 
+ <table>
+  <tbody>
+   <tr>
+    <td><p>Please enter a hostname: </p></td> 
+    <td><input type="text" name="hostname"></td>
+   </tr> 
+   <tr>
+    <td><input type="hidden" name="bgcolor" value="ffffff"> <input type="hidden" name="text" value="000000"></td> 
+    <td><input type="submit" name="check" value="check"></td>
+   </tr>
+  </tbody>
+ </table>
+</form>
+CETI (AS15541)
+null
+NetArt (AS15967)
+<form method="post" action="//panel.serwery.pl/dologin.php"> 
+ <h6>Zaloguj się</h6> 
+ <input type="text" name="username" placeholder="Wpisz e-mail">
+ <input type="password" name="password" placeholder="Podaj hasło">
+ <input type="submit" class="button blue right" value="Zaloguj się">
+ <a href="//panel.serwery.pl/pwreset.php">Wyślij przypomnienie hasła</a> 
+ <a href="//panel.serwery.pl/register.php">Zarejestruj się</a> 
+</form>
+Piotrkosoft (AS29314)
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
+ <input type="hidden" name="cmd" value="_s-xclick"> 
+ <input type="image" src="http://piotrkosoft.net/paypal_donate.jpg" border="0" name="submit" alt="PayPal - Wygodne i bezpieczne płatności internetowe!"> 
+ <img alt="" border="0" src="" width="1" height="1"> 
+ <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIH8QYJKoZIhvcNAQcEoIIH4jCCB94CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYChcKx0b49YR6TGAI6DxseubTt7vmAyJAXeAf7CssoZpBpuhEOa0eYVdD7LHJ5bZUH6NOosemTJN5WOIwwn/X/p2jBBboRyb8opCxvk+AMASnvFilBybtYzVNKv+oAcNmulK14rJfAp48sP9yyxKUJi9Pg/tjSd5eQueH/ltpj47jELMAkGBSsOAwIaBQAwggFtBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECBtCYLWGzgTjgIIBSCgh8m+/NfuggjsbPge3XcFjIwyW/GqSyfgzB55ZUNgejbtMwndfFhWZQvcusZQq79sSoeTxH84P9Tab8CcppQWekRf1a3QpVI4bMtLEbA/2Lx5csPPrWd14+KNDkb4F6ThxM6qm/7+qjy/LDzq92CF3IJ0iZSFPAENvljMnkRYYvgiRGHNYIyZ6ra385J2uRD2YcC1EUD8skEyk0EfcQrWCg1dThgrFjm4LpGA+PMnoGoGsvtaWztPiFptidQs1JMwiDUGyjit8EPJGT9hvKqrb+PohfT+1bRe9A7O7EP/evM1GEzAbHCWz2tFqspLpRQGCQp63lhPTfySnO3kJDZzx70/aklGMvT4vmnzSMmuEy0mhXOQZgb02yndoEOcZn5OQn6raXTLOhXDEkrsMyEgz0k80Ds2oRDHPFYTDlen+7Wi/0+qzHMigggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0wODA0MTcyMjM5NDJaMCMGCSqGSIb3DQEJBDEWBBTJ7CJ+rk8HTwhaw03Nn/7kof1ufjANBgkqhkiG9w0BAQEFAASBgJpriBBYdAhbHy1WK6163W2n9NH2wDjs/1fxYXa4F5HEaxv7C60U8pjJvfMLwKicby/cN6jkdIg1IUqi2Td/yMtNYTL9IQBOfg6WMPLiLrdgGEbhFe6BkxGED2X4g8kerpBWqQ1nmmLBEi+jqrt6O6xrl5uNh4rjaa+EDd8K7hlJ-----END PKCS7-----
+"> 
+</form>
+Kei (AS29522)
+<form id="newsletter-widget" class="col-sm-8" action="/newsletter" method="post"> 
+ <div class="input-group row"> 
+  <input name="email" id="_newsletter_email" class="form-control col-sm-6" placeholder="Twój e-mail" required type="text"> 
+  <span class="input-group-btn"> <button class="btn btn-primary no-radius" type="submit"><span class="glyphicon glyphicon-chevron-right font-size-11"></span></button> </span> 
+ </div> 
+</form>
+dhosting.pl (AS48896,AS31116)
+<form method="POST" action="./"> 
+ <table> 
+  <tbody>
+   <tr> 
+    <td><input type="radio" name="query" value="traceroute" checked></td> 
+    <td>traceroute</td> 
+   </tr> 
+   <tr> 
+    <td><input type="radio" name="query" value="ping"></td> 
+    <td>ping</td> 
+   </tr> 
+   <tr> 
+    <td><input type="radio" name="query" value="ipinfo"></td> 
+    <td>ipinfo</td> 
+   </tr> 
+  </tbody>
+ </table> 
+ <br> 
+ <table> 
+  <tbody>
+   <tr> 
+    <td>Router / Protokół</td> 
+    <td> <select name="protokol"> <option value="IPv4"> IPv4 - waw-orco-sr1 (AS48896) </option><option value="IPv6"> IPv6 - waw-orco-sr2 (AS31116) </option></select></td> 
+   </tr> 
+   <tr> 
+    <td>host</td> 
+    <td><input type="text" name="ip_host" value="222.130.133.187" size="30"> <input type="submit" name="submit" value="Analizuj"></td> 
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+Portugal
+3GNTW (AS25137)
+<form class="form-search content-search" action="/suporte.html" method="post" id="search-block-form" accept-charset="UTF-8">
+ <div>
+  <div class="container-inline"> 
+   <h2 class="element-invisible">Formulário de procura</h2> 
+   <div class="input-append">
+    <input title="Introduza os termos pelos quais pretende pesquisar." class="search-query span2 form-text" placeholder="Pesquisar" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128">
+    <button type="submit" class="btn"><i class="icon-search"></i><span class="element-invisible">Pesquisar</span></button>
+   </div>
+   <button class="element-invisible btn btn-primary form-submit" id="edit-submit" name="op" value="Pesquisar" type="submit">Pesquisar</button> 
+   <input type="hidden" name="form_build_id" value="form-u1hKG-LwU0JvUGLnmt4grf_0ecZPiX00-ApdUNOcnzg"> 
+   <input type="hidden" name="form_id" value="search_block_form"> 
+  </div> 
+ </div>
+</form>
+Romania
+ZYX (AS8708)
+<form methode="post" action="/index.php">
+  Enter IP or Host 
+ <input type="text" name="host" value="222.130.133.187"> 
+ <input type="submit" name="submit" value="Traceroute!">
+</form>
+Gazduire Web Ltd. (AS25116)
+<form methode="post" action="/index.php"></form>
+Russia
+TeliaNet Russia (AS1299)
+<form method="POST" action="/"> 
+ <center> 
+  <table id="form">
+   <tbody>
+    <tr>
+     <td> 
+      <table cellpadding="2" cellspacing="2"> 
+       <tbody>
+        <tr> 
+         <th bgcolor="#000000" nowrap><font color="#FFFFFF">Type of Query</font></th> 
+         <th bgcolor="#000000" nowrap><font color="#FFFFFF">Additional parameters</font></th> 
+         <th bgcolor="#000000" nowrap><font color="#FFFFFF">Node</font></th>
+        </tr> 
+        <tr>
+         <td> 
+          <table border="0" cellpadding="2" cellspacing="2"> 
+           <tbody>
+            <tr>
+             <td><input type="radio" name="query" value="bgp"></td>
+             <td>&nbsp;bgp</td>
+            </tr> 
+            <tr>
+             <td><input type="radio" name="query" value="ping"></td>
+             <td>&nbsp;ping</td>
+            </tr> 
+            <tr>
+             <td><input type="radio" name="query" value="trace" checked></td>
+             <td>&nbsp;trace</td>
+            </tr> 
+            <tr>
+             <td></td>
+             <td><select name="protocol"> <option value="IPv4"> IPv4 </option><option value="IPv6"> IPv6 </option></select></td>
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <td align="CENTER">&nbsp;<br><input name="addr" size="30"><br><font size="-1">&nbsp;<sup>&nbsp;</sup>&nbsp;</font></td> 
+         <td align="RIGHT">&nbsp;<br><select name="router"> <optgroup label="TeliaSonera AS1299 - Asia"> <option value="Hong Kong"> Hong Kong </option><option value="Singapore"> Singapore </option></optgroup> <optgroup label="TeliaSonera AS1299 - Europe"> <option value="Amsterdam"> Amsterdam </option><option value="Barcelona"> Barcelona </option><option value="Berlin"> Berlin </option><option value="Bratislava"> Bratislava </option><option value="Brussels"> Brussels </option><option value="Bucharest"> Bucharest </option><option value="Budapest"> Budapest </option><option value="Cologne"> Cologne </option><option value="Copenhagen"> Copenhagen </option><option value="Dublin"> Dublin </option><option value="Dusseldorf"> Dusseldorf </option><option value="Frankfurt"> Frankfurt </option><option value="Hamburg"> Hamburg </option><option value="Helsinki"> Helsinki </option><option value="Kiev"> Kiev </option><option value="London"> London </option><option value="Madrid"> Madrid </option><option value="Marseille"> Marseille </option><option value="Milan"> Milan </option><option value="Moscow"> Moscow </option><option value="Munich"> Munich </option><option value="Oslo"> Oslo </option><option value="Paris"> Paris </option><option value="Poznan"> Poznan </option><option value="Prague"> Prague </option><option value="Riga"> Riga </option><option value="Sofia"> Sofia </option><option value="Stockholm"> Stockholm </option><option value="St.-Petersburg"> St.-Petersburg </option><option value="Tallinn"> Tallinn </option><option value="Valencia"> Valencia </option><option value="Vienna"> Vienna </option><option value="Warsaw"> Warsaw </option><option value="Zurich"> Zurich </option></optgroup> <optgroup label="TeliaSonera AS1299 - Middle East"> <option value="Doha"> Doha </option><option value="Dubai"> Dubai </option><option value="Muscat"> Muscat </option></optgroup> <optgroup label="TeliaSonera AS1299 - US"> <option value="Ashburn"> Ashburn </option><option value="Atlanta"> Atlanta </option><option value="Boston"> Boston </option><option value="Buffalo"> Buffalo </option><option value="Charlotte"> Charlotte </option><option value="Chicago"> Chicago </option><option value="Cleveland"> Cleveland </option><option value="Dallas"> Dallas </option><option value="Denver"> Denver </option><option value="Kansas City"> Kansas City </option><option value="Los Angeles"> Los Angeles </option><option value="McAllen"> McAllen </option><option value="Miami"> Miami </option><option value="Nashville"> Nashville </option><option value="New York"> New York </option><option value="Palo Alto"> Palo Alto </option><option value="Phoenix"> Phoenix </option><option value="San Jose"> San Jose </option><option value="Seattle"> Seattle </option><option value="Toronto"> Toronto </option></optgroup> <optgroup label="TeliaSonera Sweden AS3301"> <option value="Stockholm-3301"> Stockholm-3301 </option><option value="Malmo"> Malmo </option></optgroup> <optgroup label="TeliaSonera IPX AS8837"> <option value="GRX segment"> GRX segment </option></optgroup> </select><br><font size="-1">&nbsp;&nbsp;<sup>&nbsp;</sup>&nbsp;</font></td> 
+        </tr> 
+        <tr>
+         <td align="CENTER" colspan="3"> <p> <input type="SUBMIT" value="Submit"> | <input type="RESET" value="Reset"> </p><p> </p></td>
+        </tr> 
+       </tbody>
+      </table> </td>
+    </tr>
+   </tbody>
+  </table> 
+ </center> 
+ <p>    </p>
+</form>
+Radio-MSU (AS2683)
+null
+RUSnet (AS3277)
+<form>
+ <hr>
+ <label>Enter the desired destination host.domain or IP address: <input name="isindex"></label>
+ <hr>
+</form>
+Urals State University (AS5468)
+<form method="post"> 
+ <input type="text" name="host" accesskey="1" value="222.130.133.187"> 
+ <span class="o">-d</span>
+ <input type="checkbox" name="d" class="o1" accesskey="2"> 
+ <input type="submit" value=" OK "> 
+</form>
+Zenon N.S.P (AS6903)
+<form action="/pcgi/trace.pl" method="get"> 
+ <input type="textfield" name="IP" value="222.130.133.187"> 
+ <input type="submit">
+ <br> 
+ <input type="checkbox" name="AS"> AS-name lookup 
+</form>
+MAcomnet (AS8470)
+<form>
+ <hr>
+ <label>Traceroute to <input name="isindex"></label>
+ <hr>
+</form>
+TransTeleCom (AS20485)
+<form action="/cgi/ping.cgi" method="GET"> 
+ <input type="text" name="t" class="Main"> 
+ <input type="submit" class="Main" value=" Ping "> 
+</form>
+Saint Kitts
+Saint Vincent
+Singapore
+SingTel Internet Exchange (AS7473)
+<form action="/open/public/lgmain/lgquery/" method="post" name="lgQuery" id="lgQuery"> 
+ <table width="400" border="0" cellspacing="3" cellpadding="0" style="margin:20px 0px 0px 50px;"> 
+  <tbody>
+   <tr> 
+    <td align="left" valign="top"><strong>Query Type</strong></td> 
+    <td align="center" valign="top">:</td> 
+    <td align="left" valign="top"> 
+     <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+      <tbody>
+       <tr> 
+        <td> <label> <input type="radio" name="queryType" id="queryType" value="ping" class="mainFMRadio" checked>Ping To </label> </td> 
+        <td> <label> <input type="radio" name="queryType" id="queryType" value="traceroute" class="mainFMRadio">Traceroute To </label> </td> 
+        <td id="tdBGP" style="display:block"> <label> <input type="radio" name="queryType" id="queryType" value="bgp" class="mainFMRadio">BGP </label> </td> 
+       </tr> 
+      </tbody>
+     </table> </td> 
+   </tr> 
+   <tr> 
+    <td align="right" valign="top">&nbsp;</td> 
+    <td align="right" valign="top">&nbsp;</td> 
+    <td align="right" valign="top">&nbsp;</td> 
+   </tr> 
+   <tr> 
+    <td width="20" align="left" valign="top"><strong>Router</strong></td> 
+    <td width="5%" align="center" valign="top">:</td> 
+    <td width="75%" align="left" valign="top"> <label> <select name="connectionId" id="connectionId" size="1" class="mainFMDropDown mainFMAlignLeft"> <optgroup label="STIX"> <option value="9|Chaiwan, HK">Chaiwan, HK (IPv4, IPv6)</option> <option value="14|JPIX, JP">JPIX, JP (IPv4, IPv6)</option> <option value="5|London, UK">London, UK (IPv4)</option> <option value="13|Los Angeles, US">Los Angeles, US (IPv4, IPv6)</option> <option value="10|Orchard, SG">Orchard, SG (IPv4, IPv6)</option> <option value="12|Palo Alto, US">Palo Alto, US (IPv4, IPv6)</option> <option value="8|Shatin, HK">Shatin, HK (IPv4, IPv6)</option> <option value="1|Taipei, Taiwan">Taipei, Taiwan (IPv4)</option> <option value="11|Tampines, SG">Tampines, SG (IPv4, IPv6)</option> <option value="7|Tokyo, Japan">Tokyo, Japan (IPv4, IPv6)</option> </optgroup> </select> </label> </td> 
+   </tr> 
+   <tr> 
+    <td align="left" valign="top">&nbsp;</td> 
+    <td align="left" valign="top">&nbsp;</td> 
+    <td align="left" valign="top">&nbsp;</td> 
+   </tr> 
+   <tr> 
+    <td align="left" valign="top" id="ipHostLabel"><strong>Ping To</strong></td> 
+    <td align="center" valign="top">:</td> 
+    <td align="left" valign="top"> <input type="text" name="ipHost" id="ipHost" value="Enter IP address or hostname" class="mainFMTextArea" onclick="this.value=''"> </td> 
+   </tr> 
+   <tr> 
+    <td align="left" valign="top">&nbsp;</td> 
+    <td align="left" valign="top">&nbsp;</td> 
+    <td align="left" valign="top">&nbsp;</td> 
+   </tr> 
+   <tr> 
+    <td align="left" valign="top"><strong>Security Check</strong></td> 
+    <td align="center" valign="top">:</td> 
+    <td align="left" valign="top"> <script type="text/javascript">
+							var RecaptchaOptions = {
+								theme : 'white'
+							};
+						</script> <br> <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LfU2esSAAAAAJ4EWL-YDpThphVg9o_TppzWJJ3G"></script> 
+     <noscript> 
+      <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfU2esSAAAAAJ4EWL-YDpThphVg9o_TppzWJJ3G" height="300" width="500" frameborder="0"> </iframe> 
+      <br> 
+      <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea> 
+      <input type="hidden" name="recaptcha_response_field" value="manual_challenge"> 
+     </noscript> </td> 
+   </tr> 
+   <tr> 
+    <td align="left" valign="top">&nbsp;</td> 
+    <td align="center" valign="top">&nbsp;</td> 
+    <td align="left" valign="top"> 
+     <div id="noRouter"> 
+      <div id="mainBtnRed" class="mainBtnLeftAlign"> 
+       <div id="mainBtnRedLeft"></div> 
+       <div id="mainBtnRedCenter">
+        <a href="#" id="submitForm">Submit</a>
+       </div> 
+       <div id="mainBtnRedRight"></div> 
+      </div> 
+      <!--mainBtnRed--> 
+      <div id="mainBtnRed" class="mainBtnLeftAlign"> 
+       <div id="mainBtnRedLeft"></div> 
+       <div id="mainBtnRedCenter">
+        <a href="#" id="resetForm">Reset</a>
+       </div> 
+       <div id="mainBtnRedRight"></div> 
+      </div> 
+     </div> </td> 
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+NewMedia Express (AS38001)
+null
+Slovakia
+South Africa
+Spain
+GOWEX (AS12769)
+null
+Veloxia Network (AS28842)
+null
+Sweden
+Royal Institute of Technology (AS2839)
+null
+Wiberg (AS8642)
+<form method="post" action="iptools.php"></form>
+Webbkonsulterna webbhotell AB (AS41980)
+<form name="traceform"> 
+ <input name="t"> 
+ <input type="button" value="Traceroute" onclick="dotrace()"> 
+</form>
+Switzerland
+DP Services (AS8327)
+null
+Init7 (AS13030)
+<form method="post" action="/de/backbone/traceroute">
+ Bevorzugtes Protokoll: 
+ <input type="radio" name="proto" value="4" checked>IPv4 
+ <input type="radio" name="proto" value="6">IPv6 
+ <br>
+ <br> 
+ <b>IP Adresse oder Host eingeben:</b>
+ <br> 
+ <input type="text" name="host" size="39" value="222.130.133.187"> 
+ <input type="submit" name="submit" value="Traceroute">
+</form>
+BBoxBBS (AS15576)
+<form name="suche" action="default.asp"> 
+ <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+  <tbody>
+   <tr> 
+    <td align="right" valign="top" nowrap> <a href="default.asp?m=2" title="Nehmen Sie mit uns Kontakt auf">Kontakt</a> · <a href="default.asp?m=4" title="Sitemap resp. Inhaltsverzeichnis der www.bbox.ch">Sitemap</a> · <a href="default.asp?m=6" title="Wir freuen uns über Ihren Eintrag im Gästebuch">Gästebuch</a> · <a href="default.asp?m=43" title="Allgemeine Geschäftsbedinungen">AGB</a> </td> 
+   </tr> 
+   <tr> 
+    <td align="right" nowrap> <img src="Images/null.gif" alt="" width="1" height="8" border="0"><br> <input type="hidden" name="m" value="3"> <input type="text" name="sBegriff" size="18" maxlength="50"> <input type="submit" class="button" value="Suchen"> </td> 
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+NDNET (AS44706)
+<form method="post" action="7-0-Traceroute.html?404%3bhttp%3a%2f%2fas44706.net%3a80%2f7-0-Traceroute.html" id="form1"> 
+ <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMzNzUzMDk1MQ9kFgICAw9kFgICBA9kFgICAQ8PFgIeCEltYWdlVXJsBT8vY2FwdGNoYXV0aWwvQ2FwdGNoYS5hc3B4P2FubmM9MkVFRTVBNUYxNTlCRUJCNjVEQjVDRUYxMUIzN0EyQjlkZGTp6z3vHNZdXyl4tj1aYKFJjjJtUA=="> 
+ <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334"> 
+ <div class="container text-right" style="padding:0 0 0 20px"> 
+  <p style="margin-top:20px"> <select id="selCountry" onchange="showSelectedDiv();" class="input-medium"> <option value="English" selected>English</option> <option value="Chinese"> 简体中文</option> <option value="French">Français</option> <option value="German">Deutsch</option> <option value="Italian">Italiano</option> <option value="Japanese">日本の</option> <option value="Norwegian">Norsk</option> <option value="Poland">Polski</option> <option value="Portuguese">Português</option> <option value="Spanish">Español</option> </select> </p> 
+ </div> 
+ <div class="container wrapper"> 
+  <div class="row-fluid"> 
+   <div id="lblMessage" class="alert alert-error" style="display:none;">
+    &nbsp;
+   </div> 
+   <div id="lblPostMessage" class="alert alert-error" style="display:none;">
+    &nbsp;
+   </div> 
+   <input type="hidden" name="hdnLanguage" id="hdnLanguage" value="English"> 
+   <div id="pnlStatus1"> 
+    <div id="divEnglish1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="not verified">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">You have reached a domain that is pending ICANN verification.</h1>
+     </div> 
+     <p>As of January 1, 2014 the Internet Corporation for Assigned Names and Numbers (ICANN) will mandate that all ICANN accredited registrars begin verifying the Registrant WHOIS contact information for all new domain registrations and Registrant contact modifications.</p> 
+     <h2>Why this domain has been suspended</h2> 
+     <div class="indent"> 
+      <p><strong>Email address has not been verified.</strong><br>This is a new domain registration and the Registrant email address has not been verified.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">or</p>
+      </div> 
+      <p><strong>The Registrant contact data for this domain was modified but still requires verification.</strong><br>Specifically the First Name, Last Name and/or email address have been changed and never verified.</p> 
+     </div> 
+     <h2>If you're the site owner, reactivate your site</h2> 
+    </div> 
+    <div id="divGerman1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="nicht überprüft">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">Sie haben eine Domäne erreicht, deren ICANN-Verifizierung noch aussteht.</h1>
+     </div> 
+     <p>Ab 1. Januar 2014 sind alle ICANN-zugelassenen Registrierungsstellen gemäß der Internet Corporation for Assigned Names and Numbers (ICANN) verpflichtet, die WHOIS-Kontaktdaten aller neuen Domänenregistrierungen, sowie Kontaktänderungen der Registranten zu überprüfen.</p> 
+     <h2>Warum diese Domäne gesperrt wurde</h2> 
+     <div class="indent"> 
+      <p><strong>Die E-Mail-Adresse wurde nicht bestätigt.</strong><br>Dies ist eine neue Domänenregistrierung und die E-Mail-Adresse des Registranten wurde nicht bestätigt.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">oder</p>
+      </div> 
+      <p><strong>Die Kontaktdaten des Registranten für diese Domäne wurden geändert, und müssen noch bestätigt werden.</strong><br>Insbesondere Vorname, Zuname bzw. E-Mail-Adresse wurden geändert, und wurden bisher noch nicht überprüft.</p> 
+     </div> 
+     <h2>Wenn Sie Inhaber der Website sind, reaktivieren Sie Ihre Website</h2> 
+    </div> 
+    <div id="divSpanish1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="no verificado">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">Usted ha llegado a un dominio que está pendiente de verificación por parte de la ICANN.</h1>
+     </div> 
+     <p>A partir del 1 de enero de 2014 la corporación Internet Corporation for Assigned Names and Numbers (ICANN) exigirá a todos los registradores acreditados que realicen un procesos de verificación de la información de contacto publicada en el WHOIS, en todos los registros nuevos de dominios y cambios de titular.</p> 
+     <h2>Por qué se ha suspendido este dominio</h2> 
+     <div class="indent"> 
+      <p><strong>La dirección de correo electrónica no se ha sido validada.</strong><br>Este es un registro de dominio nuevo y la dirección de correo electrónico del titular registrado no se ha validado.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">o</p>
+      </div> 
+      <p><strong>Los datos de contacto del titular registrado para este dominio se modificaron, pero aún están pendiente de ser validados.</strong><br>Específicamente el primer nombre, apellido y/o correo electrónico han sido cambiados y todavía no han sido validados.</p> 
+     </div> 
+     <h2>Si usted es el propietario del sitio, reactívelo</h2> 
+    </div> 
+    <div id="divFrench1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="non vérifié">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">Vous êtes sur un domaine en attente de vérification.</h1>
+     </div> 
+     <p>À compter du 1er janvier 2014, l'Internet Corporation for Assigned Names and Numbers (ICANN) demandera à l'ensemble des bureaux d'enregistrement accrédités par l'ICANN de vérifier les informations de contact WHOIS des titulaires pour tous les nouveaux enregistrements de domaines et toutes les modifications des ces informations.</p> 
+     <h2>Pourquoi ce domaine a-t-il été suspendu?</h2> 
+     <div class="indent"> 
+      <p><strong>L'adresse de courriel n'a pas été vérifiée.</strong><br>Il s'agit de l'enregistrement d'un nouveau domaine et l'adresse de courriel du titulaire n'a pas été vérifiée.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">ou</p>
+      </div> 
+      <p><strong>Les données de contact du titulaire pour ce domaine ont été modifiées, mais doivent néanmoins être vérifiées.</strong><br>Spécifiquement, les nom, prénom et/ou adresse de courriel ont été modifiés, mais n'ont jamais été vérifiés.</p> 
+     </div> 
+     <h2>Si vous êtes le propriétaire du site, réactivez-le.</h2> 
+    </div> 
+    <div id="divPortuguese1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="não verificado">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">Você chegou a um domínio com verificação ICANN pendente.</h1>
+     </div> 
+     <p>Em 1º de janeiro de 2014, a Internet Corporation for Assigned Names and Numbers (ICANN) exigirá que todos os registradores certificados pela ICANN comecem a verificar as informações de contato WHOIS do registrante para todos os novos registros de domínio e modificações de contato do registrante.</p> 
+     <h2>Por que este domínio foi suspenso</h2> 
+     <div class="indent"> 
+      <p><strong>O endereço de email não foi verificado.</strong><br>Este é um novo registro de domínio e o endereço de email do registrante não foi verificado.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">ou</p>
+      </div> 
+      <p><strong>Os dados de contato do registrante para este domínio foram modificados, mas ainda requerem verificação.</strong><br>Especificamente o nome, o sobrenome e/ou o endereço de email foram alterados e nunca foram verificados.</p> 
+     </div> 
+     <h2>Se você for o proprietário do website, reative-o.</h2> 
+    </div> 
+    <div id="divNorwegian1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="ikke bekreftet">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">Du har kommet til et domene som avventer ICANN-verifisering.</h1>
+     </div> 
+     <p>Fra 1. januar 2014 vil Internet Corporation for Assigned Names and Numbers (ICANN) kreve at alle ICANN-akkrediterte registratorer starter bekreftelse av Registrator WHOIS kontaktinformasjon for alle nye domeneregistreringer og kontaktmodifikasjoner for registrator.</p> 
+     <h2>Hvorfor dette domenet har blitt avbrutt</h2> 
+     <div class="indent"> 
+      <p><strong>E-psotadresse har ikke blitt bekreftet.</strong><br>Dette er en ny domeneregistrering og registrators e-postadresse har ikke blitt bekreftet.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">eller</p>
+      </div> 
+      <p><strong>Registrators kontaktdata for dette domenet ble modifisert, men krever alikevel verifisering.</strong><br>Spesifikt har fornavn, etternavn og/eller e-postadresse blitt endret og aldri bekreftet.</p> 
+     </div> 
+     <h2>Hvis du er sidens eier, reaktiver siden din</h2> 
+    </div> 
+    <div id="divChinese1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="未验证">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">您访问的域正在等待 ICANN 验证。</h1>
+     </div> 
+     <p>自 2014 年 1 月 1 日起，Internet Corporation for Assigned Names and Numbers (ICANN) 将要求所有 ICANN 委任域名注册公司开始在注册所有新域和修改注册人联系信息时验证注册人 WHOIS 联系信息。</p> 
+     <h2>该域为何被挂起</h2> 
+     <div class="indent"> 
+      <p><strong>电子邮件地址未验证。</strong><br>这是新域注册并且注册人电子邮件地址未验证。</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">或者</p>
+      </div> 
+      <p><strong>该域的注册人联系信息已修改，但仍需验证。</strong><br>特别是姓名和/或电子邮件地址已更改，但尚未验证。</p> 
+     </div> 
+     <h2>如果您是站点所有者，请重新激活站点</h2> 
+    </div> 
+    <div id="divJapanese1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="未確認">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">ICANNの確認待ちのドメインに到達しました。 </h1>
+     </div> 
+     <p>2014年1月1日付けで、Internet Corporation for Assigned Names and Numbers（ICANN）は、すべてのICANN認定レジストラが、すべての新しいドメインの登録のための登録者のWHOIS連絡先情報と登録者連絡先の変更の確認を開始することを義務付けます。</p> 
+     <h2>このドメインが停止された理由は何ですか？</h2> 
+     <div class="indent"> 
+      <p><strong>電子メールアドレスが確認されていません。</strong><br>これは新しいドメイン登録で、登録者の電子メールアドレスが確認されていません。</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">または</p>
+      </div> 
+      <p><strong>このドメインの登録者の連絡先データは変更されましたが、まだ確認されていません。</strong><br>具体的には、名、姓、および／または電子メールアドレスが変更されましたが、確認されていません。</p> 
+     </div> 
+     <h2>サイトオーナーの場合は、サイトを再度アクティブにしてください</h2> 
+    </div> 
+    <div id="divPoland1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="not verified">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">Dotarłeś na domenę, która oczekuje na weryfikację ICANN</h1>
+     </div> 
+     <p>Z dniem 1 stycznia 2014 Internet Corporation for Assigned Names and Numbers (ICANN) wymaga aby wszyscy akredytowani przez ICANN rejestratorzy rozpoczęli weryfikację danych abonenta, zapisanych w WHOIS, dla wszystkich nowych rejestracji domen oraz modyfikacji danych abonenta.</p> 
+     <h2>Dlaczego ta domena została zawieszona</h2> 
+     <div class="indent"> 
+      <p><strong>Adres email nie został zweryfikowany.</strong><br>Jest to rejestracja nowej domeny i adres email abonenta nie został jeszcze zweryfikowany.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">lub</p>
+      </div> 
+      <p><strong>Dane abonenta domeny zostały zmodyfikowane, lecz nie zostały zweryfikowane.</strong><br>W szczególności imię, nazwisko i/lub adres email zostały zmienione i nie zostały zweryfikowane.</p> 
+     </div> 
+     <h2>Jeśli jesteś właścicielem tej domeny, możesz ją reaktywować</h2> 
+    </div> 
+    <div id="divItalian1z1"> 
+     <div class="clearfix" style="background:#F2F2F2;margin:-20px -20px 20px -20px;border-bottom:1px solid #CCC;padding:20px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px; ">
+      <img src="/images/not-verified.png" class="pull-left" style="margin:10px 20px 0 0" alt="not verified">
+      <h1 class="pull-left" style="max-width:600px;margin:10px 0">Il dominio è stato sospeso .</h1>
+     </div> 
+     <p>A partire dal 1 gennaio 2014, tutti i registrar accreditati ICANN - l'ente internazionale responsabile della gestione di tutti i domini di primo livello - devono verificare le informazioni di contatto WHOIS del cliente per tutte le nuove registrazioni di dominio e modifiche di contatto. </p> 
+     <h2>Perché questo dominio è stato sospeso</h2> 
+     <div class="indent"> 
+      <p><strong>L'indirizzo email non è stato verificato.</strong><br>È stata effettuata una nuova registrazione di un dominio e l'indirizzo email del proprietario non è stato verificato.</p> 
+      <div class="text-center" style="position:relative;width:100px">
+       <p class="option">oppure</p>
+      </div> 
+      <p><strong>I dati di contatto del proprietario del dominio sono stati modificati ma non sono stati verificati (nome, cognome, indirizzo email).</strong></p> 
+     </div> 
+     <h2>Riattiva il tuo sito</h2> 
+    </div> 
+    <div class="indent"> 
+     <div id="divEnglish1z1a"> 
+      <p><strong>Resend the verification email.</strong><br>This will be sent to the Registrant email address populated in your WHOIS data. If you are unsure what email address is listed, please log into your account with the provider where you currently manage this domain to view and/or update the info.</p> 
+     </div> 
+     <div id="divGerman1z1a"> 
+      <p><strong>Senden Sie eine neue Benachrichtigungs-E-Mail.</strong><br>Diese wird an die bereits in Ihren WHOIS-Daten eingetragene E-Mail-Adresse des Registranten gesandt. Wenn Sie nicht sicher sind, welche E-Mail-Adresse aufgeführt ist, loggen Sie sich in Ihrem Konto bei dem Anbieter ein, wo Sie derzeit diese Domäne verwalten, um Ihre Daten einzusehen, bzw. zu aktualisieren.</p> 
+     </div> 
+     <div id="divSpanish1z1a"> 
+      <p><strong>Reenvie el correo electrónico de verificación.</strong><br>Este se le enviará a la dirección de correo electrónico especificada en los datos WHOIS. Si no está seguro de que dirección de correo electrónico especificó, por favor consúltesela al registrador con el que inició los trámites de registro o bien solicite que se la modifiquen.</p> 
+     </div> 
+     <div id="divFrench1z1a"> 
+      <p><strong>Renvoi du courriel de vérification.</strong><br>Il sera envoyé à l'adresse du titulaire renseignée dans les données WHOIS. Si vous n'êtes pas sûr de l'adresse renseignée, connectez-vous à votre compte auprès du fournisseur via lequel vous gérez actuallement ce domaine afin de consulter et/ou de mettre à jour les informations.</p> 
+     </div> 
+     <div id="divPortuguese1z1a"> 
+      <p><strong>Reenviar email de verificação.</strong><br>Isso será enviado ao endereço de email do registrante preenchido nos dados WHOIS. Se não tiver certeza de qual endereço de email foi informado, efetue login na sua conta com o provedor em que você gerencia atualmente este domínio para visualizar e/ou atualizar as informações.</p> 
+     </div> 
+     <div id="divNorwegian1z1a"> 
+      <p><strong>Send e-post med varsel på nytt.</strong><br>Denne vil bli sendt til registrators e-postadresse fylt ut med dine WHOIS-data. Hvis du er usikker på hvilken e-postadresse som er oppført, logg inn på kontoen din med leverandøren du bruker til å forvalte dette domenet for å vise og/eller oppdatere informasjonen.</p> 
+     </div> 
+     <div id="divChinese1z1a"> 
+      <p><strong>重新发送验证电子邮件。</strong><br>该电子邮件将发送至您 WHOIS 数据中所填写的注册人电子邮件地址。如果不确定所填写的电子邮件地址，请在您当前管理该域的提供商处登录账户来查看和/或更新信息。</p> 
+     </div> 
+     <div id="divJapanese1z1a"> 
+      <p><strong>確認の電子メールを再送します。</strong><br>これはWHOISデータ内に入力された登録者の電子メールアドレスに送信されます。電子メールアドレスが記載されているかどうかわからない場合は、このドメインを現在管理しているプロバイダーのアカウントにログインして、情報を確認および／または更新してください。</p> 
+     </div> 
+     <div id="divPoland1z1a"> 
+      <p><strong>Wyślij ponownie email weryfikacyjny.</strong><br>Email zostanie wysłany na adres email abonenta domeny widniejący w bazie WHOIS. Jeśli nie jesteś pewien, jaki to jest adres email, zaloguj się na swoje konto u rejestratora domen, u którego utrzymujesz tę domenę. Możesz tam sprawdzić adres email i/lub zaktualizować dane.</p> 
+     </div> 
+     <div id="divItalian1z1a"> 
+      <p><strong>Nuovo invio dell'email di verifica.</strong><br>L'email di verifica sarà inviata nuovamente all'indirizzo email del proprietario del dominio presente nei dati WHOIS. Per controllare quale sia l'indirizzo email presente nei dati WHOIS, si consiglia di accedere al proprio account sul provider che attualmente gestisce il dominio.</p> 
+     </div> 
+     <p><img id="imgCaptcha" src="/captchautil/Captcha.aspx?annc=2EEE5A5F159BEBB65DB5CEF11B37A2B9" width="200" style="border:1px solid #CCC"></p> 
+     <p><input name="Captcha" type="text" maxlength="7" id="Captcha" placeholder="Enter the numbers seen above" style="width:350px;height:30px;line-height:30px"></p> 
+     <p><input type="submit" name="btnSubmit" value="Resend Verification Email" onclick="return checkCaptchaEntered();" id="btnSubmit" class="btn btn-large btn-primary"></p> 
+     <div id="divEnglish1z1b"> 
+      <p><strong>Click the link in the email</strong><br>and your contact information will be immediately verified. We estimate the site will come back online within 24 to 48 hours.</p> 
+     </div> 
+     <div id="divGerman1z1b"> 
+      <p><strong>Klicken Sie auf den Link in der E-Mail</strong><br>und Ihre Kontaktdaten werden sofort bestätigt. Wir schätzen, dass die Website innerhalb 24 bis 48 Stunden wieder online sein wird.</p> 
+     </div> 
+     <div id="divSpanish1z1b"> 
+      <p><strong>Haga clic en el vínculo que está en el correo electrónico</strong><br>y su información de contacto se verificará inmediatamente. Estimamos que el sitio volverá a estar en línea en un lapso de 24 a 48 horas.</p> 
+     </div> 
+     <div id="divFrench1z1b"> 
+      <p><strong>Cliquez sur le lien dans le courriel</strong><br> et vos informations de contact seront immédiatement vérifiées. Nous estimons que le site sera de nouveau disponible dans 24 à 48 heures.</p> 
+     </div> 
+     <div id="divPortuguese1z1b"> 
+      <p><strong>Clique no link no email</strong><br>e suas informações de contato serão verificadas imediatamente. Estimamos que o site volte a ficar online dentro de 24 a 48 horas.</p> 
+     </div> 
+     <div id="divNorwegian1z1b"> 
+      <p><strong>Klikk på linken i e-posten</strong><br>og kontaktinformasjonen din vil bli øyeblikkelig bekreftet. Vi anslår at siden vil være online igjen innen 24 til 48 timer.</p> 
+     </div> 
+     <div id="divChinese1z1b"> 
+      <p><strong>单击电子邮件中的链接</strong><br>，您的联系信息将立即验证。我们估计站点将在 24 到 48 小时内恢复联机状态。</p> 
+     </div> 
+     <div id="divJapanese1z1b"> 
+      <p><strong>電子メール内のリンクをクリックすると、</strong><br>連絡先情報が即座に確認されます。私たちは、24～48時間以内にサイトがオンラインに戻ると予想しています。</p> 
+     </div> 
+     <div id="divPoland1z1b"> 
+      <p><strong>Kliknij w link zawarty w wiadomości</strong><br>a Twoje dane kontaktowe zostaną natychmiast zweryfikowane. Szacujemy, że działanie domeny będzie przywrócone w czasie od 24 do 48 godzin.</p> 
+     </div> 
+     <div id="divItalian1z1b"> 
+      <p><strong>Appena riceverai l'email,</strong><br>clicca sul link per verificare le informazioni. Il sito dovrebbe tornare online entro 24/48 ore.</p> 
+     </div> 
+    </div> 
+    <div id="divEnglish1z1c"> 
+     <h2>Frequently asked questions</h2> 
+     <div class="indent"> 
+      <p><strong>Why was my domain suspended?</strong><br>ICANN requires that the domain registrant's contact information or changes to the registrant's WHOIS information be verified within 15 calendar days. If the data is not verified in this timeframe, ICANN mandates that the website be suspended pending the verification.</p> 
+      <p><strong>How can I remove the suspension on my domain?</strong><br>The suspension of the domain will be removed after the WHOIS information is successfully verified. Please update the WHOIS information with complete and accurate contact details through your domain service provider. Once updated you will recieve a new verification email.</p> 
+      <p><strong>Once the suspension is removed, when will my website come back online?</strong><br>We estimate it may take 24 to 48 hours for the website to come back online.</p> 
+      <p><strong>Who is ICANN?</strong><br>ICANN is responsible for the coordination of the global Internet's systems of unique identifiers and, in particular, ensuring its' stable and secure operation. ICANN maintains policies and specifications for registrars and registrants to abide by.</p> 
+      <p><strong>What is WHOIS?</strong><br>WHOIS services provide public access to data on registered domain name holders. Registered Name Holders are required to provide accurate and reliable contact details to their Registrar to update WHOIS data for a Registered Name.</p> 
+     </div> 
+    </div> 
+    <div id="divGerman1z1c"> 
+     <h2>Häufig gestellte Fragen</h2> 
+     <div class="indent"> 
+      <p><strong>Warum wurde meine Domäne gesperrt?</strong><br>ICANN schreibt vor, dass Kontaktdaten der Registranten von Domänen, oder Änderungen dieser WHOIS-Daten innerhalb von 15 Tagen überprüft werden müssen. Können die Daten in diesem Zeitraum nicht bestätigt werden, so wird die Website gemäß ICANN bis zur Verifizierung gesperrt.</p> 
+      <p><strong>Wie kann ich die Sperre von meiner Domäne entfernen?</strong><br>Die Sperre der Domäne wird entfernt, sobald die WHOIS-Daten erfolgreich bestätigt sind. Bitte aktualisieren Sie über Ihren Dienstanbieter der Domäne die WHOIS-Daten mit vollständigen und genauen Kontaktdaten. Nach der Aktualisierung werden Sie eine neue Verifizierungs-E-Mail erhalten.</p> 
+      <p><strong>Wie lange dauert es nach Aufhebung der Sperre, bis meine Website wieder online ist?</strong><br>Wir schätzen, dass es 24 bis 48 Stunden dauern kann, bis die Website wieder online ist.</p> 
+      <p><strong>Wer ist ICANN?</strong><br>ICANN ist verantwortlich für die Koordinierung spezifischer Erkennungsmarker der globalen Systeme des Internets, und insbesondere für die Gewährleistung ihrer stabilen und sicheren Funktion. ICANN verwaltet Richtlinien und Spezifikationen, die von Registrierungsstellen und Registranten eingehalten werden müssen.</p> 
+      <p><strong>Was ist WHOIS?</strong><br>WHOIS-Dienste bieten Zugang zu den Daten der registrierten Domäneninhaber. Registrierte Domäneninhaber sind verpflichtet, ihren Registrierungsstellen für registrierte Domänennamen genaue und zuverlässige Kontaktdaten zur Aktualisierung der WHOIS-Daten zur Verfügung zu stellen.</p> 
+     </div> 
+    </div> 
+    <div id="divSpanish1z1c"> 
+     <h2>Preguntas frecuentas</h2> 
+     <div class="indent"> 
+      <p><strong>¿Por qué mi dominio fue suspendido?</strong><br>ICANN exige que la información de contacto de la persona que registra el dominio o cambios a la información WHOIS de la persona registrada sean validados en un plazo de 15 días. Si los datos no se verifican en este lapso de tiempo, ICANN exige que el sitio web sea suspendido en espera de la verificación.</p> 
+      <p><strong>¿Cómo puedo eliminar la suspensión de mi dominio?</strong><br>La suspensión del dominio será levantada una vez que la información WHOIS sea verificada. Por favor actualice la información WHOIS con detalles precisos y completos a través de su proveedor de servicio. Una vez que se actualice, recibirá un nuevo correo electrónico de verificación.</p> 
+      <p><strong>¿Cuándo estará disponible en línea nuevamente mi sitio web una vez que se levante la suspensión?</strong><br>Estimamos que el sitio web pudiera tardar de 24 a 48 horas en estar disponible en línea nuevamente.</p> 
+      <p><strong>¿Qués es ICANN?</strong><br>ICANN es la organización responsable de la coordinación de los identificadores únicos de los sistemas globales de Internet y, en particular, se encarga de asegurar su operación sea segura y estable. ICANN mantiene políticas y especificaciones para su cumplimiento por parte de registradores y registrantes.</p> 
+      <p><strong>¿Qué es WHOIS?</strong><br>Los servicios WHOIS proveen acceso público a los datos de los titulares de nombres de dominio registrados. Los titulares de nombres registrados deberán suministrar información de contacto precisa y fiable a su registrador para actualizar los datos WHOIS de un Nombre Registrado.</p> 
+     </div> 
+    </div> 
+    <div id="divFrench1z1c"> 
+     <h2>Foire aux questions</h2> 
+     <div class="indent"> 
+      <p><strong>Pourquoi mon domaine a-t-il été suspendu&nbsp;? </strong><br>L'ICANN exige que les informations de contact du titulaire ou modifications de ses informations WHOIS soient vérifiées dans les 15&nbsp;jours calendaires. Si les données ne sont pas vérifiées dans le délai imparti, l'ICANN demande la suspension du site dans l'attente de la vérification.</p> 
+      <p><strong>Comment puis-je annuler la suspension de mon domaine&nbsp;? </strong><br>La suspension du domaine sera annulée dès que les informations WHOIS auront effectivement été vérifiées. Veuillez mettre à jour les informations WHOIS en indiquant des coordonnées de contact complètes et précises à votre fournisseur de domaine. Vous recevrez un courriel pour la nouvelle vérification une fois que vous aurez effectué cette mise à jour.</p> 
+      <p><strong>Une fois la suspension annulée, quand mon site Web sera-t-il de nouveau en ligne&nbsp;? </strong><br>Nous estimons que 24 à 48 heures peuvent être nécessaires pour que le site soit à nouveau disponible.</p> 
+      <p><strong>Qu'est-ce que l'ICANN&nbsp;? </strong><br>L'ICANN est responsable de la coordination des systèmes d'identifiants uniques sur Internet dans le monde et, en particulier, pour en garantir la stabilité et la sécurité. L'ICANN disposent de politiques et spécifications que les bureaux d'enregistrement et titulaires doivent respecter.</p> 
+      <p><strong>Qu'est-ce que WHOIS&nbsp;? </strong><br>Les services WHOIS permettent au public d'avoir accès aux données relatives au titulaires de noms de domaine enregistrés. Les titulaires de noms enregistrés doivent fournir des coordonnées de contact précises et fiables à leur bureau d'enregistrement afin de permettre la mise à jour des données WHOIS pour le nom de domaine enregistré.</p> 
+     </div> 
+    </div> 
+    <div id="divPortuguese1z1c"> 
+     <h2>Perguntas frequentes</h2> 
+     <div class="indent"> 
+      <p><strong>Por que meu domínio foi suspenso?</strong><br>A ICANN exige que as informações de contato do registrante do domínio ou alterações a informações WHOIS do registrante sejam verificadas dentro de 15 dias corridos. Se os dados não forem verificados nesse período, a ICANN determinar que o website seja suspenso enquanto a verificação estiver pendente.</p> 
+      <p><strong>Como posso remover a suspensão do meu domínio?</strong><br>A suspensão do domínio será removida depois de as informações WHOIS serem verificadas com sucesso. Atualize as informações WHOIS com detalhes de contato completos e precisos pelo seu provedor de serviço de domínio. Depois da atualização, você receberá um email de verificação.</p> 
+      <p><strong>Depois que a suspensão for removida, quando meu website voltar a ficar online?</strong><br>Estimamos que possa levar de 24 a 48 horas para o website voltar a ficar online.</p> 
+      <p><strong>Quem é a ICANN?</strong><br>A ICANN é responsável pela coordenação dos sistemas global de identificadores únicos da Internet e, em particular, por garantir sua operação estável e segura. A ICANN mantém políticas e especificações a serem cumpridas por registradores e registrantes.</p> 
+      <p><strong>O que é a WHOIS?</strong><br>Os serviços da WHOIS fornecem acesso público aos dados em detentores de nomes de domínio registrados. Os detentores de nomes de domínio registrados devem fornecer detalhes de contato precisos e confiáveis para o registrador atualizar os dados WHOIS para um nome registrado.</p> 
+     </div> 
+    </div> 
+    <div id="divNorwegian1z1c"> 
+     <h2>Ofte stilte spørsmål</h2> 
+     <div class="indent"> 
+      <p><strong>Hvorfor ble domenet mitt opphevet?</strong><br>ICANN krever at domeneregistrators kontaktinformasjon eller endringer i registratorens WHOIS-informasjon må bekreftes innen 15 kalenderdager. Hvis dataene ikke bekreftes innen denne tidsrammen, krever ICANN at nettsiden oppheves i påvente av verifisering.</p> 
+      <p><strong>Hvordan kan jeg fjerne opphevingen av mitt domene?</strong><br>Opphevelsen av domenet vil fjernes etter at WHOIS-informasjonen har blitt verifisert. Oppdater WHOIS-informasjonen med fullstendige og nøyaktige kontaktdetaljer gjennom din domene-leverandør. Når siden er oppdatert vil du motta en ny e-post med bekreftelse.</p> 
+      <p><strong>Når opphevingen er fjernet, når kommer nettsiden min opp igjen?</strong><br>Vi anslår at det kan ta mellom 24 til 48 timer før nettsiden igjen er online.</p> 
+      <p><strong>Hvem er ICANN?</strong><br>ICANN er ansvarlig for koordineringen av det globale internett-systemets unike identifikatorer, og spesielt å sirke dets stabile og sikre drift. ICANN opprettholder policyer og spesifikasjoner som registratorer og registranter må overholde.</p> 
+      <p><strong>Hva er WHOIS?</strong><br>WHOIS-tjenester gir offentlig adgang til data på registrerte eiere av domenenavn. Registrerte navn-eiere må oppgi nøyaktige og pålitelige kontaktdetaljer til sin registrator for å oppdatere WHOIS-data for et registrert navn.</p> 
+     </div> 
+    </div> 
+    <div id="divChinese1z1c"> 
+     <h2>常见问题</h2> 
+     <div class="indent"> 
+      <p><strong>我的域为何被挂起？</strong><br>ICANN 要求在 15 个日历日内验证域注册人联系信息或注册人 WHOIS 信息的更改。如果数据未在此时间范围内验证，ICANN 要求将网站挂起等待验证。</p> 
+      <p><strong>如何解除域的挂起状态？</strong><br>WHOIS 信息验证成功后域的挂起状态将解除。请使用完整准确的详细联系信息通过您的域服务提供商更新 WHOIS 信息。更新完成后，您将收到一封新的验证电子邮件。</p> 
+      <p><strong>挂起状态解除后，我的网站何时恢复联机状态？</strong><br>我们估计大约需要 24 到 48 小时网站即可恢复联系状态。</p> 
+      <p><strong>谁是 ICANN？</strong><br>ICANN 负责全球协调全球互联网的唯一标识符系统，特别是确保其稳定和安全运行。ICANN 维护注册公司和注册人都需要遵守的政策和规范。</p> 
+      <p><strong>什么是 WHOIS？</strong><br>WHOIS 服务使公众可访问有关注册域名持有者的数据。注册域名持有者需要向其注册公司提供准确可靠的详细联系信息以便更新注册域名的 WHOIS 数据。</p> 
+     </div> 
+    </div> 
+    <div id="divJapanese1z1c"> 
+     <h2>よくある質問</h2> 
+     <div class="indent"> 
+      <p><strong>ドメインが停止した理由は何ですか？ </strong><br>ICANNは、ドメインの登録者の連絡先情報または登録者のWHOIS情報への変更が15暦日以内に確認されることを要求します。この時間枠内にデータが確認されない場合、ICANNは、確認されるまで、ウェブサイトの停止を命じます。</p> 
+      <p><strong>どのようにすればドメインの停止を解除できますか？ </strong><br>ドメインの停止は、WHOIS情報が適切に確認された後、解除されます。 ドメインサービスプロバイダーを介して、WHOIS情報を完全かつ正確な連絡先情報で更新してください。更新したら、新しい確認の電子メールを受け取ります。</p> 
+      <p><strong>停止が解除されたら、いつウェブサイトはオンラインに戻りますか？ </strong><br>私たちは、ウェブサイトがオンラインに戻るのに24～48時間かかる可能性があると予想しています。</p> 
+      <p><strong>ICANNとは誰ですか？ </strong><br>ICANNは、ユニークな識別子のある世界中のインターネットのシステムの調整に責任を負い、その安定した、安全な稼働を確保します。ICANNは、レジストラと登録者が遵守すべき方針と仕様を維持します。</p> 
+      <p><strong>WHOISとは何ですか？ </strong><br>WHOISのサービスは、登録済みのドメイン名ホルダーに関するデータへの公共のアクセスを実現します。登録名ホルダーは、レジストラに正確で信頼できる連絡先情報を提供して、登録名のWHOISデータを更新する必要があります。</p> 
+     </div> 
+    </div> 
+    <div id="divPoland1z1c"> 
+     <h2>Często zadawane pytania</h2> 
+     <div class="indent"> 
+      <p><strong>Dlaczego moja domena została zawieszona?</strong><br>ICANN wymaga aby każde dane abonenta domeny lub zmiany wprowadzone do danych abonenta zapisanych w bazie WHOIS były zweryfikowane w ciągu 15 dni kalendarzowych. Jeśli dane nie zostaną zweryfikowane w tym czasie, ICANN wymaga aby serwis internetowy został zawieszony do momentu zakończenia weryfikacji.</p> 
+      <p><strong>Jak mogę usunąć blokadę mojej domeny?</strong><br>Blokada domeny bêdzie zniesiona, gdy dane abonenta w bazie WHOIS zostan¹ pomyœlnie zweryfikowane. Prosimy zaktualizowaæ dane WHOIS, wprowadzaj¹c kompletne i dok³adne dane abonenta poprzez panel administracyjny rejestratora domeny. Jak tylko dane zostan¹ zaktualizowane, otrzymasz nowy email weryfikacyjny.</p> 
+      <p><strong>W momencie zdjęcia blokady, kiedy działanie mojej domeny będzie przywrócone?</strong><br>Szacujemy, że działanie domeny zostanie przywrócone w czasie od 24 do 48 godzin.</p> 
+      <p><strong>Co to jest ICANN?</strong><br>ICANN jest organizacją odpowiedzialną za koordynację globalnych systemów unikalnych identyfikatorów w Internecie, a w szczególności, za jego stabilne i bezpieczne działanie. ICANN zarządza politykami i zasadami działania obowiązujących rejestratorów oraz abonentów domen.</p> 
+      <p><strong>Co to jest WHOIS?</strong><br>WHOIS zapewnia publiczny dostęp do danych abonentów domen. Zarejestrowani abonenci domen są zobowiązani do podania pełnych i wiarygodnych dancyh kontaktowych za pośrednictwem swojego rejestratora domen, w celu aktualizacji ich w bazie WHOIS.</p> 
+     </div> 
+    </div> 
+    <div id="divItalian1z1c"> 
+     <h2>Domande frequenti</h2> 
+     <div class="indent"> 
+      <p><strong>Perché il mio dominio è stato sospeso?</strong><br>L'ICANN prevede che le informazioni - o la modifica delle informazioni - WHOIS del dichiarante siano verificate entro 15 giorni. Se le informazioni non vengono verificate in tempo utile, il dominio viene sospeso.</p> 
+      <p><strong>Come rimuovo la sospensione del mio dominio?</strong><br>La sospensione del dominio viene rimossa effettuando la verifica delle informazioni. Si prega di aggiornare le informazioni WHOIS attraverso il provider che gestisce il dominio. Dopo aver effettuato l'aggiornamento sarà inviata una email di verifica.</p> 
+      <p><strong>Dopo aver rimosso la sospensione, quando tornerà online il mio sito?</strong><br>Il sito dovrebbe tornare online dopo 24 / 48 ore dalla rimozione della sospensione.</p> 
+      <p><strong>Cos'è l'ICANN?</strong><br>È l'ente internazionale responsabile del coordinamento delle politiche di gestione di tutti i domini di primo livello. Svolge attività di garanzia e supervisione.</p> 
+      <p><strong>Che cos'è l'WHOIS?</strong><br>È un servizio che consente l'accesso ai dati pubblici dei titolari dei nomi a dominio registrati. I titolari di nomi a dominio sono tenuti s fornire al Registrar dati aggiornati.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <!-- SJL0VWRAA02 --> 
+</form>
+Taiwan
+HiNet (AS3462)
+<form id="tracerouteForm">
+  請輸入 IP 或 Hostname: 
+ <input name="dest" id="dest">
+ <input type="button" id="submit" value="送出">
+ <br> 
+</form>
+Linkwan (AS4808)
+null
+EBIX (AS17709)
+<form name="UI" method="post"> 
+ <input type="hidden" name="flag" value="tr"> 
+ <table cellpadding="0" cellspacing="0" border="0"> 
+  <tbody>
+   <tr> 
+    <td> Enter traceroute hostname or IP:&nbsp; <input type="text" class="textin" size="20" name="ip" value="222.130.133.187"> <input type="submit" value="Submit" style="font-family:arial;"> </td> 
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+Thailand
+Togo
+Turkey
+Turkmenistan
+Ukraine
+Ukrainian Academic & Research Network (AS3255)
+<form method="post"> 
+ <center> 
+  <table width="100%" class="v"> 
+   <tbody>
+    <tr class="e" align="center">
+     <td> Query: </td>
+     <td> Argument: </td>
+     <td> Router: </td>
+     <td> &nbsp;</td>
+    </tr> 
+    <tr class="v"> 
+     <td width="180"> <select name="query"> <option value="bgp"> show route bgp </option> <option value="trace"> traceroute </option> </select> </td> 
+     <td align="center"> <input name="addr" size="40" value="222.130.133.187"> </td> 
+     <td width="200"> <select name="router"><option value="core321"> Kyiv</option><option value="core320"> Lviv</option></select> </td>
+     <td align="center" width="100"> <input type="submit" value="Submit"> </td>
+    </tr> 
+   </tbody>
+  </table> 
+ </center> 
+</form>
+Khmelnitsk Infocom (AS6846)
+<form method="POST" action="http://noc.ic.km.ua/cgi-bin/lg.cgi"> 
+ <table width="180" border="0" cellspacing="1" cellpadding="0"> 
+  <tbody>
+   <tr>
+    <td><input type="radio" name="query" value="1" checked></td>
+    <td>sh ip bgp <b>value</b></td>
+   </tr> 
+   <tr>
+    <td><input type="radio" name="query" value="2"></td>
+    <td>sh ip bgp summary</td>
+   </tr> 
+   <tr>
+    <td><input type="radio" name="query" value="3"></td>
+    <td>sh ip rip </td>
+   </tr> 
+   <tr>
+    <td><input type="radio" name="query" value="4"></td>
+    <td>traceroute <b>value</b></td>
+   </tr> 
+   <tr>
+    <td><input type="radio" name="query" value="5"></td>
+    <td>ping <b>value</b><br></td>
+   </tr> 
+   <tr>
+    <td>Value:</td>
+    <td><input name="addr" size="20" value=""><br></td>
+   </tr> 
+  </tbody>
+ </table> 
+ <table>
+  <tbody>
+   <tr>
+    <td valign="top"> <input type="submit" value="Submit"> </td>
+    <td valign="top"> <input type="reset" value="Reset">  </td>
+    <td valign="top"> 
+     <form method="GET" action="http://noc.ic.km.ua/"> 
+      <input type="submit" value="Exit">
+     </form> </td>
+   </tr>
+  </tbody>
+ </table> 
+</form>
+United Kingdom
+USA
+University of Southern California (AS47)
+<form action="/cgi-bin/traceroute" method="GET"> 
+ <input type="hidden" name="choice" value="yes"> 
+ <input type="submit" value="YES">
+</form>
+University of Washington (AS73)
+<form name="TRACEROUTE" method="GET" enctype="application/x-www-form-urlencoded">
+ IP 
+ <input type="text" name="search_address">
+ <p></p>OPTIONS
+ <br>
+ <label><input type="checkbox" name="numeric_address" value="-n"> Print hop addresses numerically</label>
+ <br>
+ <label><input type="checkbox" name="max_hop" value="-m"> Max time-to-live</label>
+ <input type="text" name="max_hop_value" value="30" size="3" maxlength="3">
+ <br>
+ <label><input type="checkbox" name="wait_time" value="-w"> Seconds to wait for response</label>
+ <input type="text" name="wait_time_value" value="2" size="2" maxlength="2">
+ <br>
+ <label><input type="checkbox" name="number_query" value="-q"> Number of Queries</label>
+ <input type="text" name="number_query_value" value="3" size="2" maxlength="2">
+ <br>
+ <label><input type="checkbox" name="number_out" value="TRUE"> Number of Time Outs</label>
+ <input type="text" name="number_out_value" value="3" size="2" maxlength="2">
+ <p></p>
+ <input type="submit" name="Submit" value="Submit"> 
+ <input type="button" name="Abort" value="Abort" onclick="Reset()"> 
+ <input type="submit" name=".defaults" value="Clear Form"> 
+ <div>
+  <input type="hidden" name=".cgifields" value="number_query">
+  <input type="hidden" name=".cgifields" value="wait_time">
+  <input type="hidden" name=".cgifields" value="numeric_address">
+  <input type="hidden" name=".cgifields" value="number_out">
+  <input type="hidden" name=".cgifields" value="max_hop">
+ </div>
+</form>
+Princeton University (AS88)
+<form method="POST" action="/cgi-bin/traceroute.pl"> 
+ <b>Host name or IPv4 address: </b> 
+ <input name="target" type="text" size="53" maxlength="255"> 
+ <br> 
+ <b>Numeric-only output: </b> 
+ <input type="checkbox" name="numeric"> 
+ <br> 
+ <input name="cmd" type="submit" value=" Go "> 
+</form>
+Cogent (AS174)
+<form> 
+ <ul> 
+  <li><a href="http://partner.cogentco.com" title="Cogent Partner Portal" target="_blank">partner portal</a></li> 
+  <li>|</li> 
+  <li><a title="Login to eCogent Customer Portal" href="http://ecogent.cogentco.com" mce_href="#">customer login</a></li> 
+  <li>|</li> 
+  <li><a title="Contact Cogent Customer Support" href="/en/customer-service/support-desk" mce_href="#">support</a><br mce_bogus="1"></li> 
+  <li>|</li> 
+  <li><a title="View Site Map" href="/en/component/xmap/html?view=html" mce_href="/en/component/xmap/html?view=html">site map</a><br mce_bogus="1"></li> 
+  <li><select name="txtLanguage" onchange="loadPage(this.form.elements[0]);" target="_parent._top" onmouseclick="this.focus()"><option>select language</option><option value="en">English</option><option value="es">Español</option><option value="de">Deutsch</option><option value="fr">Français</option></select></li> 
+ </ul> 
+</form>
+Energy Sciences Network (AS292)
+<form id="Form_SearchForm" action="/search-results/SearchForm" method="get" enctype="application/x-www-form-urlencoded"> 
+ <p id="Form_SearchForm_error" class="message " style="display: none"></p> 
+ <fieldset> 
+  <div id="Search" class="field text  nolabel">
+   <div class="middleColumn">
+    <input type="text" class="text nolabel" id="Form_SearchForm_Search" name="Search" value="search…">
+   </div>
+  </div> 
+  <div class="clear">
+   <!-- -->
+  </div> 
+ </fieldset> 
+ <div class="Actions"> 
+  <input class="action " id="Form_SearchForm_action_ProcessSearchForm" type="submit" name="action_ProcessSearchForm" value="Go" title="Go"> 
+ </div> 
+</form>
+LK.Net (AS701)
+<form action="http://cities.lk.net/cities/servlets/traceroute" method="post"> 
+ <table bgcolor="#add8e6" border="2"> 
+  <tbody>
+   <tr>
+    <td><strong>URL:</strong> <br><input type="text" name="sturl" value="http://" size="30"> 
+     <center> 
+      <i>Max Hops:</i>&nbsp; 
+      <input type="text" name="shopes" value="30" size="3"> 
+     </center> 
+     <table> 
+      <tbody>
+       <tr>
+        <td><input type="submit" name="go" value="Go Traceroute"> </td> 
+        <td><input type="submit" name="yourself" value="Route to you"> </td> 
+       </tr> 
+       <tr> 
+        <td> <input type="radio" name="tout" value="table"> <i>Table Output</i> </td> 
+        <td> <input type="radio" name="tout" value="flush" checked> <i>Flush Stream</i> </td> 
+       </tr> 
+      </tbody>
+     </table> </td> 
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+Psychosis.Net (AS1784)
+<form method="get" action="/traceroute/">
+ Hostname: 
+ <input type="text" name="address">
+ <input type="submit" value="Traceroute"> 
+ <br>Please choose a trace type:
+ <input type="radio" name="type" value="traceroute" checked>traceroute
+ <input type="radio" name="type" value="mtr">mtr (slower)
+ <p>Leave the hostname blank to traceroute to yourself. </p>
+ <p>Note: Traceroute is currently in parallel-probing mode which may incorrectly display dropped packets (*s) and not display filtered endpoints.  </p>
+</form>
+XO (AS2828)
+<form name="Looking" glass="" action="/cgi-bin/xostats/diagtool-pub/trace" method="POST"> 
+ <!-- Hidden box for  --> 
+ <input type="HIDDEN" name="screen" value="TRACE"> 
+ <p><b><a href="/cgi-bin/xostats/diagtool">Diagnostic Tools:</a></b> <a href="/cgi-bin/xostats/diagtool/trace"> Traceroute</a> | <a href="/cgi-bin/xostats/diagtool/ping"> Ping</a> | <a href="/cgi-bin/xostats/diagtool/bgp"> BGP</a> </p>
+ <table border="0" cols="2" width="700" cellpadding="0" cellspacing="0" class="form" nosave="">
+  <tbody>
+   <tr>
+    <th class="required">Core Node </th>
+    <p> 
+     <!-- Menu for  --> </p>
+    <td> <select name="source" size="1" 1=""> <option value=""> </option><option value="Atlanta">Atlanta </option><option value="Chicago">Chicago </option><option value="Dallas">Dallas </option><option value="Denver">Denver </option><option value="Los Angeles">Los Angeles </option><option value="Miami">Miami </option><option value="New York">New York </option><option value="San Jose">San Jose </option><option value="Seattle">Seattle </option><option value="Washington DC">Washington DC </option></select></td> 
+   </tr> 
+   <!-- Text box for Destination --> 
+   <tr> 
+    <th class="required">Destination:</th> 
+    <td><input type="text" name="dest" maxlength="35" size="35" value="" onfocus="window.status='Please enter Destination'; return true;"></td> 
+   </tr> 
+   <!-- Button for submit --> 
+   <tr>
+    <td colspan="2" class="submit"><input type="submit" name="submit" value="Get Results"> <input type="Reset" value="Reset"> </td> 
+   </tr> 
+  </tbody>
+ </table> 
+ <!-- End of Table --> 
+</form>
+T1 Shopper (AS2914)
+<form name="f" method="POST" action="https://www.t1shopper.com/dossier/enter_street_address.php" style="padding:0;margin:0;"> 
+ <input type="hidden" name="id"> 
+ <table cellpadding="0" cellspacing="0" border="0">
+  <tbody>
+   <tr>
+    <td><img src="http://m.static.t1shopper.com/i/search.gif" alt="Broadband Service Providers" width="281" height="16" hspace="3" vspace="5"></td> 
+    <td>&nbsp;&nbsp;</td> 
+    <td align="center"><font color="#FFFFFF" size="-2" face="Geneva, Arial, Helvetica, sans-serif">ZIP code for service</font></td> 
+    <td><img src="http://m.static.t1shopper.com/i/oarrowb.gif" alt="" width="8" height="10" hspace="4" border="0"></td> 
+    <td nowrap><font color="#FFFFFF" size="3" face="Geneva, Arial, Helvetica, sans-serif"><strong><input name="install_phone" type="text" maxlength="5" style="width: 54px; font-family: courier, sans-serif; font-weight : normal; font-size: 14px; background-color : #FFFFFF; border-color : #000000; border-style : inset; border-width : 1px; color : #000;"></strong></font></td> 
+    <td nowrap>&nbsp;<input type="Submit" value="Get Providers" class="quickchecksubmit" style="padding: 0px; margin: 2px 0px 0px 0px; width:100px"></td> 
+    <td>
+     <table border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+       <tr>
+        <td nowrap></td>
+       </tr>
+      </tbody>
+     </table></td>
+   </tr>
+  </tbody>
+ </table>
+</form>
+Visualware Inc. (AS2914)
+null
+PrimeNetwork (AS3356)
+null
+MaxNOC Communications (AS3356)
+<form name="f_lg" action="/support/knowledge-base/looking-glass/lg.cfc" target="lg-results"> 
+ <label for="method" class="info">Method:</label> 
+ <select name="method" id="method" class="select"> <option value="PING">Ping</option> <option selected value="FASTPING">Fast Ping</option> <option value="TRACE">Trace Route</option> <option value="Whois">Whois Lookup</option> <option value="DIG">Dig Any</option> </select> 
+ <p> <label for="method" class="info">Parameter:</label> <input type="text" name="parameter" size="25" value="google.com" class="text"> <br> </p> 
+ <p> <input type="image" src="/images/buttons/submit-request.gif" alt="submit"> </p> 
+</form>
+Global Crossing (AS3549)
+null
+Stanford University (AS3671)
+<form action="/cgi-bin/nph-traceroute.pl" method="GET"> 
+ <input type="hidden" name="choice" value="yes"> 
+ <input type="submit" value="YES">
+</form>
+netINS (AS5056)
+<form action="lg.cgi" method="POST"> 
+ <p> <input type="radio" name="type" value="Traceroute" checked> Traceroute</p>
+ <p> <input type="radio" name="type" value="BGPLookup"> BGP Lookup </p>
+ <p> <input type="radio" name="type" value="Ping"> Ping&nbsp;&nbsp;Count: <select name="Count"> <option selected>5</option> <option>10</option> <option>20</option> </select> </p>
+ <p>IP Address/Hostname: <input type="text" name="ipaddr" value="222.130.133.187"> <input type="submit" value="Query">  </p>
+</form>
+InterWorld Communications, Inc (AS5726)
+<form method="post"> 
+ <hr> Enter Target Computer: 
+ <input name="host" size="11" value="3(NXDOMAIN)">
+ <br> 
+ <hr> 
+ <b>Select Network Test:</b>
+ <br> 
+ <input type="radio" name="job" value="ping" checked>Ping &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Easy to Read Ping
+ <input type="checkbox" name="pingtype" value="f"> 
+ <br> 
+ <input type="radio" name="job" value="trace">Traceroute &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Easy to Read Traceroute
+ <input type="checkbox" name="tracetype" value="f"> 
+ <br> 
+ <input type="radio" name="job" value="*">Ping *and* Traceroute
+ <br> 
+ <input type="radio" name="job" value="dns">DNS Lookup
+ <br> 
+ <input type="submit" value="Proceed!">
+ <br> 
+ <input name="state" type="hidden" value="1"> 
+</form>
+NETPLEX (AS6062)
+<form method="post" action="/traceroute/" enctype="multipart/form-data"> 
+ <table> 
+  <tbody>
+   <tr>
+    <td nowrap><b>Enter the desired destination host.domain or IP address:</b></td>
+    <td nowrap><input type="text" name="tracehost" size="24" maxlength="80" value=""></td>
+   </tr> 
+   <tr>
+    <td></td>
+    <td><input type="radio" name="ipversion" value="auto" checked>Auto IPv6/IPv4<br> <input type="radio" name="ipversion" value="4">IPv4<br> <input type="radio" name="ipversion" value="6">IPv6<br> <input type="checkbox" name="useicmp" value="yes">Use ICMP Packets<br> <input type="checkbox" name="skipdns" value="yes">Numeric Output (skip DNS)<br> </td>
+   </tr> 
+   <tr>
+    <td>&nbsp;</td>
+    <td><font size="-1">Please complete the CAPTCHA below then click the Traceroute button.</font></td>
+   </tr> 
+   <tr>
+    <td>&nbsp;</td>
+    <td nowrap> <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LcEqL0SAAAAABPlQjxbSMwISVvZrBcjvJLmLOOS">
+</script> 
+     <noscript> 
+      <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LcEqL0SAAAAABPlQjxbSMwISVvZrBcjvJLmLOOS" height="300" width="500" frameborder="0"></iframe> 
+      <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+  </textarea> 
+      <input type="hidden" name="recaptcha_response_field" value="manual_challenge"> 
+     </noscript> </td>
+   </tr> 
+   <tr>
+    <td>&nbsp;</td>
+    <td nowrap><input type="submit" name="submit" value="Traceroute"></td>
+   </tr> 
+  </tbody>
+ </table> 
+ <input type="hidden" name="runtrace" value="1"> 
+</form>
+Springfield (AS6172)
+<form action="/cgi-bin/traceroute"> 
+ <p>Remote host's name: <input type="text" name="remote_host" size="30"> &nbsp; <input type="checkbox" name="dns" checked> Use DNS</p> 
+ <p><input type="submit" value="Traceroute"></p> 
+</form>
+Opus One (AS6373)
+<form method="get" action="http://www.opus1.com/htbin/traceroute"> 
+ <input type="hidden" name="debug" value="NO"> 
+ <b>Enter the name or IP address of the site to trace to:</b>
+ <br> 
+ <input type="text" size="60" maxlength="60" name="query" value="">
+ <br> 
+ <input type="submit" value="  Trace that puppy "> or 
+ <input type="reset" value="  Clear the Form "> 
+ <hr> 
+ <a href="http://www.opus1.com/o/nospamtrace.html"><b>Spam Fighters:</b> Click here</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ <a href="http://www.opus1.com/o/nobreakin.html"><b>Security folks:</b>Click here</a> 
+ <hr> 
+ <h2>Fun things to fiddle with</h2>
+ <br> The defaults for most of this will be fine for most people. If you want to fiddle with things, please be sure you know what you're doing.
+ <p> The maximum number of hops to trace <input type="text" size="3" maxlength="2" name="max" value="30"> <br> The hop number to start with, 5 or greater skips our Tucson providers <input type="text" size="3" maxlength="2" name="min" value="1"> <br> The number of UDP packets to send to each hop <input type="text" size="3" maxlength="2" name="num" value="3"><br> (numbers other than 3 turn on delay statistics to show loss and congestion; maximum is 99) </p>
+ <p> <input type="radio" name="as" value="no" checked> We don't need no stinkin' AS numbers <input type="radio" name="as" value="yes"> Show AS numbers </p>
+ <p> <input type="radio" name="nosym" value="no" checked> Please abuse the DNS for me <input type="radio" name="nosym" value="yes"> I can drive NSLOOKUP myself </p>
+ <p> <input type="radio" name="owner" value="no" checked> I don't care who is responsible <input type="radio" name="owner" value="yes"> Round up the usual suspects </p>
+ <p> <input type="radio" name="spray" value="yes" checked> Use super-fast spray mode <input type="radio" name="spray" value="no"> Use boring old wait-forever Traceroute </p>
+ <p> Pick one of our Internet links to force packets via that route, if you'd like. Default will get what a "normal" host on the production backbone would see, depending on how ICMPs are flowing right now. <br> <select name="lsrr"> <option value="default"> Trace from default point of view </option><option value="trace-via-grid.accessone.net"> Trace from Gridnet link point of view </option><option value="trace-via-ua.accessone.net"> Trace from UA link point of view </option><option value="trace-via-sprint.accessone.net"> Trace from Sprint point of view </option><option value="trace-via-mci.accessone.net"> Trace from MCI point of view </option></select></p>
+ <p> <input type="submit" value="  Trace that puppy "> or <input type="reset" value="  Clear the Form "> </p>
+ <p>  Confused? Go to the <a href="http://www.opus1.com/">Opus One</a> home page to erase this vile techno geek stuff and find a consultant who can explain it to you. You can also just see <a href="http://www.opus1.com/www/about-traceroute.html">the text at the bottom of a traceroute</a> if you want. </p>
+</form>
+Fifi.Org (AS6461)
+<form method="get" action="/services/traceroute" enctype="application/x-www-form-urlencoded"> 
+ <div style="text-align:center"> 
+  <table align="center"> 
+   <tbody>
+    <tr> 
+     <td> <a href="traceroute-help#host">Host name</a>: </td> 
+     <td align="right"> <input type="text" name="hostname" size="20" maxlength="60"> </td> 
+     <td> <p class="fifi-formerror"></p> </td> 
+    </tr> 
+    <tr> 
+     <td> <a href="traceroute-help#nprobes">Traces count</a>: </td> 
+     <td align="right"> <input type="radio" name="nprobes" value="1" checked>1 <input type="radio" name="nprobes" value="2">2 <input type="radio" name="nprobes" value="3">3 <input type="radio" name="nprobes" value="4">4 <input type="radio" name="nprobes" value="5">5 </td> 
+     <td> <p class="fifi-formerror"></p> </td> 
+    </tr> 
+    <tr> 
+     <td> <a href="traceroute-help#resolved">Resolve host names</a>: </td> 
+     <td align="right"> <input type="radio" name="resolved" value="yes" checked>yes <input type="radio" name="resolved" value="no">no </td> 
+     <td> <p class="fifi-formerror"></p> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <br> 
+  <input type="submit" name="submit" value="Traceroute"> 
+  <input type="reset" value="Reset to defaults"> 
+  <p class="fifi-error"></p> 
+ </div> 
+</form>
+foreThought.net (AS6653)
+<form action="netcheck.cgi" method="post">
+  Enter address: 
+ <input type="text" name="address"> 
+ <input type="hidden" name="command" value="trace"> 
+ <input type="submit" name="submit" value="Trace">
+ <p>  </p>
+</form>
+Area Systems (AS6939)
+<form action="http://www.area.com/cgi-bin/trace.cgi">
+ <hr>
+ <label>This is a searchable index. Enter search keywords: <input name="isindex"></label>
+ <hr>
+</form>
+Blue Moon Online System (AS10259)
+<form action="http://www.bluemoon.net/cgi-bin/tc.cgi" method="POST">
+  Enter Host Name 
+ <input type="text" name="host" size="50"> 
+ <p></p>
+ <ul> 
+  <input type="submit" value="Trace Host"> 
+  <input type="reset" value="Clear Hostname"> 
+  <p></p>
+ </ul> 
+ <img src="/g2/rainbow2.gif"> 
+ <p> </p>
+</form>
+Die.net (AS11051)
+<form action="/search/"> 
+ <input maxlength="255" size="50" name="q">
+</form>
+Davespeed (AS11388)
+<form method="POST" action="http://davespeed.com/cgi-bin/traceroute.cgi"> 
+ <font size="+1">Enter a domain name or IP address to trace:</font> 
+ <p> </p>
+ <table width="410" cellpadding="0" cellspacing="2" border="5" bordercolordark="#669999" bordercolorlight="#BBEEEE"> 
+  <tbody>
+   <tr align="CENTER">
+    <td bgcolor="#999999">&nbsp;<br><input type="TEXT" size="25" maxlength="60" name="target" value="222.130.133.187" style="background-color: #EEEEEE; width:192; font-family: courier, courier new, geneva, arial, sans-serif; color: #333333; font-size: 15px; font-weight: normal; PADDING-LEFT: 2px;" title="IP address or name"><br>&nbsp;</td>
+    <td bgcolor="#E8E8E8" width="32%">&nbsp;<br><input type="SUBMIT" value="TRACE" title="Click here to trace the network hops to the address at left"><input type="HIDDEN" name="js" value="no"><br>&nbsp;</td>
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+Easynews (AS11588)
+<form action="https://www2.easynews.com/login/" method="post" name="login" id="login" style="padding:0px;" border="0"> 
+ <input class="Text" id="username" type="text" name="username" maxlength="35" value="Username" onfocus="if(this.value  == 'Username') { this.value = ''; } " onblur="if(this.value == '') { this.value = 'Username'; } "> 
+ <input class="Text" id="password" type="password" name="password" maxlength="50" value="Password" onfocus="if(this.value  == 'Password') { this.value = ''; } " onblur="if(this.value == '') { this.value = 'Password'; }"> 
+ <input class="login_btn" type="submit" value="LogIn" title="Login"> 
+</form>
+Heller Information Services (AS11604)
+<form>
+ <hr>
+ <label>This is a searchable index. Enter search keywords: <input name="isindex"></label>
+ <hr>
+</form>
+INFLOW (AS13756/19290)
+<form method="GET" action="http://vger.kernel.org/cgi-bin/nph-traceroute"> 
+ <input type="CHECKBOX" name="ASQ" checked> AS-Query; Looks up the ROUTING AUTONOMOUS SYSTEM, where given network belongs 
+ <br> 
+ <input type="CHECKBOX" name="OWN" checked> Owner-Query; Do IP-reveral lookup for SOA record, report the owner. 
+ <br> 
+ <input type="RADIO" name="MODE" value="UDP"> UDP-Query; Uses traditional UDP packets to make the query 
+ <br> 
+ <input type="RADIO" name="MODE" value="ICMP" checked> ICMP-Query; Uses ICMP ECHO-REQUEST ("ping") instead of more usual UDP probe packets 
+ <br> 
+ <!--
+  <INPUT TYPE=RADIO NAME="MODE" VALUE="TCP"> TCP-Query;
+  Uses TCP SYN packet instead of ICMP, or UDP packets
+  <BR>
+  <INPUT TYPE=RADIO NAME="MODE" VALUE="TCPECN"> TCP-Query with ECN flags on;
+  Uses TCP SYN packet instead of ICMP, or UDP packets
+  <BR>
+--> 
+ <input type="TEXT" value="" name="DOMAIN" size="80" maxlength="200"> 
+ <br> 
+ <input type="SUBMIT" value="Submit to VGER.KERNEL.ORG host"> 
+ <input type="RESET" name="RESET"> 
+</form>
+HNK (AS13789)
+null
+RedRocks Data Center (AS13790)
+<form role="search" method="get" class="search-form" action="http://redrocksdatacenter.com/"> 
+ <label> <span class="screen-reader-text">Search for:</span> <input type="search" class="search-field" placeholder="Search …" value="" name="s"> </label> 
+ <button type="submit" class="search-submit"> <span class="genericon-search"></span> </button> 
+</form>
+University of Texas at Dallas (AS14104)
+null
+Fluid Hosting (AS14742)
+<form name="tracer" method="get" action="/traceroute.php" onsubmit="return doSubmit();">
+  Host: 
+ <input type="text" name="host" value=""> 
+ <input type="submit" value="Trace" id="trace"> 
+ <a href="/traceroute.php?traceme=please">Trace me (222.130.133.187)</a> 
+</form>
+Interserver.Net (AS21698)
+<form action="traceroute.php" method="POST">
+ <input type="hidden" name="__csrf_magic" value="sid:99040af69cf9a285671a06cee9c33d47590a4bf3,1426648956"> 
+ <input type="text" class="domain_SearchField" id="command" name="command">  
+ <div class="class_float_left"> 
+  <input name="" type="submit" value="SUBMIT" class="network_button"> 
+ </div> 
+</form>
+Colocation America (AS21769)
+<form name="loginform" id="loginform" action="http://www.colocationamerica.com/beli/" method="post"> 
+ <p class="login-username"> <label for="user_login">Username</label> <input type="text" name="log" id="user_login" class="input" value="" size="20"> </p> 
+ <p class="login-password"> <label for="user_pass">Password</label> <input type="password" name="pwd" id="user_pass" class="input" value="" size="20"> </p> 
+ <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever"> Remember Me</label></p> 
+ <p class="login-submit"> <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In"> <input type="hidden" name="redirect_to" value="http://www.colocationamerica.com/data-center-connectivity/speed-test.htm"> </p> 
+</form>
+Smooth Design Technologies (AS22963)
+<form method="POST" action=""> 
+ <table width="613" align="center" cellpadding="0" cellspacing="0"> 
+  <tbody>
+   <tr> 
+    <td align="center"><h5><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif">Trace Route Utility</font></h5> <p align="justify"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Traceroute traces the path through the Internet from <a href="index.php">SmoothDesign.NET</a> to the destination showing all the intermediate routers or hosts and the time taken for each hop on the path.</font></p> <p align="justify">&nbsp;</p></td> 
+   </tr> 
+   <tr> 
+    <td align="center">
+     <table bgcolor="#DEDEDE" border="0" cellpadding="1" cellspacing="1"> 
+      <tbody>
+       <tr> 
+        <td>
+         <table cellpadding="1" cellspacing="1"> 
+          <tbody>
+           <tr valign="middle"> 
+            <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><b>Destination Hostname or IP</b></font></td> 
+            <td align="center"><font face="verdana" size="2" color="#000000"> <input type="text" name="host" size="20" maxsize="100" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: 000000; border: 1 solid #000000"> </font></td> 
+            <td align="center"><font face="verdana" size="2" color="#000000"> <input type="submit" value="Trace It!" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; color: 000000; border: 1 solid #000000"> </font></td> 
+           </tr> 
+          </tbody>
+         </table></td> 
+       </tr> 
+      </tbody>
+     </table></td> 
+   </tr> 
+  </tbody>
+ </table> 
+</form>
+TowardEX Technologies (AS27552)
+<form method="POST" action="/cgi-bin/lg.pl" name="lg"> 
+ <b>Traceroute</b>
+ <br> 
+ <input type="hidden" name="bird" value="bos"> 
+ <input type="hidden" name="query" value="trace"> 
+ <input type="text" name="address" value="blackmesa.twdx.net" size="25" class="input"> 
+ <input type="submit" name="submit" value="Submit" class="button"> 
+</form>
+What's My IP (AS25767)
+null
+IPSite (AS25767)
+<form id="tinyurlform" action="compressor.php" method="get"> 
+ <div class="description">
+  Enter a long URL, and you will get a short URL you can use in its place. Shortened URLs automatically forward visitors to the full, long URL. Great for use in character-limited environments.
+ </div> 
+ <div>
+  <textarea name="longurl" id="longurl" rows="6" class="input_class" placeholder="Enter a full long URL, including &quot;http://&quot;"></textarea>
+ </div> 
+ <div class="error_msg"></div> 
+ <div>
+  <input id="submit_button" type="submit" name="submit" value="Convert">
+ </div> 
+ <div>
+  <input name="shorturl" id="shorturl" type="text" class="input_class">
+ </div> 
+</form>
+ARPNetworks (AS25795)
+<form method="POST" action="traceroute?l="> 
+ <table>
+  <tbody>
+   <tr> 
+    <td colspan="2"><font size="4">Traceroute Request:</font></td> 
+   </tr> 
+   <tr> 
+    <td width="150">Hostname/IP:</td> 
+    <td><input type="text" size="100" name="q"></td> 
+   </tr>
+   <tr> 
+    <td>IP Version: </td> 
+    <td> <select name="v"> <option value="Auto">Auto</option> <option value="IPv4">IPv4</option> <option value="IPv6">IPv6</option> </select> </td> 
+   </tr> 
+   <tr> 
+    <td>Protocol: </td> 
+    <td> <select name="p"> <option value="UDP">UDP</option> <option value="ICMP">ICMP</option> </select> </td> 
+   </tr> 
+  </tbody>
+ </table>
+</form>
+Giganews (AS30094)
+<form class="dropdown-menu" id="auth" action="https://www.giganews.com/auth/" method="post"> 
+ <fieldset> 
+  <label> Username <input type="text" class="text" name="credential_0" size="12"> </label> 
+  <label> Password <input type="password" class="password" name="credential_1" size="12"> </label> 
+  <input type="hidden" name="destination" value="/controlpanel/"> 
+  <button type="submit" name="go">Login</button> 
+  <a class="button" href="/password.html">Forgot Password?</a> 
+ </fieldset> 
+</form>
+APS Telecom (AS30539)
+null
+Uzbekistan
+UzPAK (AS8193)
+null
