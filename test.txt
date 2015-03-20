@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="en">
+ <head> 
+  <title>TelVGG [AS11815] -- Looking Glass</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <base href="http://lg.telvgg.coop/"> 
+  <link rel="shortcut icon" href="template/default/image/favicon.ico"> 
+  <link rel="stylesheet" type="text/css" href="template/default/css/default.css"> 
+  <link rel="stylesheet" href="template/default/css/login.css"> 
+  <link rel="stylesheet" type="text/css" href="template/default/css/header.css"> 
+  <link rel="stylesheet" type="text/css" href="template/default/css/footer.css"> 
+  <link rel="stylesheet" type="text/css" href="template/default/css/list.css"> 
+  <link rel="stylesheet" type="text/css" href="template/default/css/tablas.css"> 
+ </head> 
+ <body> 
+  <div id="wrapper"> 
+   <div id="header_contenedor"> 
+    <div id="header_barra_titulo"> 
+     <div id="header_fecha_hora">
+      Looking Glass TelVGG
+     </div> 
+     <div> 
+      <img src="template/default/image/logo_telvgg.png" class="left" alt="Cooperativa Telef¨®nica de Villa Gobernador G¨¢lvez" title="Cooperativa Telef¨®nica de Villa Gobernador G¨¢lvez" id="logo_santafe"> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="contenido"> 
+    <br> 
+    <form action="/index.php" method="POST">
+      Testing Point: 
+     <select name="server"> <option value="RouteServer" selected>TelVGG-LG-1</option> </select>
+     <br> Query Type: 
+     <select name="action"> <option class="box1" value="">-- IPv4 --</option> <option class="box1" value="show ip bgp">show ip bgp &lt;ip&gt;</option> <option class="box1" value="show ip bgp summary">show ip bgp summary</option> <option class="box1" value="show ip route">show ip route &lt;ip&gt;</option> <option class="box1" value="show ip bgp regexp">show ip bgp regexp &lt;expression&gt;</option> <option class="box1" value="show ip bgp dampening dampened-paths">show ip bgp dampening dampened-paths</option> <option class="box1" value="show ip bgp dampening flap-statistics">show ip bgp dampening flap-statistics</option> <option class="box2" value="">-- IPv6 --</option> <option class="box2" value="show bgp ipv6 unicast">show bgp ipv6 unicast &lt;ip/prefixlen&gt;</option> <option class="box2" value="show bgp ipv6 unicast summary">show bgp ipv6 unicast summary</option> <option class="box2" value="show ipv6 route">show ipv6 route &lt;ip/prefixlen&gt;</option> <option class="box2" value="show bgp ipv6 unicast regexp">show bgp ipv6 unicast regexp &lt;expression&gt;</option> <option class="box3" value="">-- Non-specific --</option> <option class="box3" value="ping">ping &lt;ip&gt;</option> <option class="box3" value="traceroute" selected>traceroute &lt;ip&gt;</option> <option class="box3" value="show interface">show interface</option> <option class="box3" value="show environment all">show environment all</option> </select>
+     <br> Optional Arguments: 
+     <input type="text" name="args" value="166.111.132.123">
+     <br> 
+     <input type="submit" value="Query"> 
+    </form> 
+    <pre><span style="font-family: " courier",="" "fixedsys",="" "ocr="" extended="" a";="" font-size:="" 2;="" color:="" black;"="">TelVGG-LG-1&gt;traceroute 166.111.132.123
+
+Type escape sequence to abort.
+Tracing the route to 166.111.132.123
+
+  1 core-vgg-1-vlan20.coopvgg.com.ar (200.3.168.97) [AS 11815] 0 msec *  0 msec
+  2 ip-200-003-168-253.coopvgg.com.ar (200.3.168.253) [AS 11815] 4 msec 4 msec 0 msec
+  3 host133.190-227-246.telecom.net.ar (190.227.246.133) [AS 11815] [MPLS: Label 16069 Exp 0] 144 msec 144 msec 144 msec
+  4 host253.186-153-152.telecom.net.ar (186.153.152.253) [AS 11815] [MPLS: Label 16069 Exp 0] 148 msec 144 msec 144 msec
+  5 host110.190-225-252.telecom.net.ar (190.225.252.110) [AS 11815] 148 msec 148 msec 152 msec
+  6  *  *  * 
+  7 10ge1-1.core1.atl1.he.net (72.52.92.53) [AS 11815] 184 msec 180 msec 180 msec
+  8 10ge15-5.core1.dal1.he.net (184.105.213.113) [AS 11815] 172 msec 176 msec 188 msec
+  9 10ge15-4.core1.phx2.he.net (184.105.222.77) [AS 11815] 216 msec 196 msec 204 msec
+ 10 10ge1-3.core1.lax2.he.net (184.105.222.86) [AS 11815] 580 msec 536 msec 508 msec
+ 11 216.218.244.106 [AS 11815] 188 msec 188 msec 180 msec
+ 12 101.4.117.185 [AS 11815] 192 msec 192 msec 192 msec
+ 13 101.4.117.169 [AS 11815] 360 msec 360 msec 360 msec
+ 14 101.4.117.97 [AS 11815] 348 msec 360 msec 364 msec
+ 15 101.4.117.50 [AS 11815] 356 msec 340 msec 356 msec
+ 16 101.4.115.69 [AS 11815] 356 msec 360 msec 348 msec
+ 17 101.4.116.194 [AS 11815] 356 msec
+    101.4.118.78 [AS 11815] 356 msec
+    101.4.116.194 [AS 11815] 352 msec
+ 18 202.112.38.10 [AS 11815] 356 msec 344 msec 348 msec
+ 19 118.229.4.66 [AS 11815] 340 msec 348 msec 356 msec
+ 20 118.229.4.34 [AS 11815] 356 msec 344 msec 344 msec
+ 21 118.229.2.74 [AS 11815] 352 msec 356 msec 340 msec
+ 22 118.229.2.90 [AS 11815] 348 msec 360 msec 360 msec
+ 23  *  *  * 
+ 24 166.111.128.34 [AS 11815] 340 msec 360 msec 360 msec
+ 25 166.111.132.123 [AS 11815] 352 msec 356 msec 364 msec
+TelVGG-LG-1&gt;
+quit
+</span></pre> 
+    <br>
+    <span style="font-size: 1;"> </span>
+   </div> 
+  </div>   
+ </body>
+</html>

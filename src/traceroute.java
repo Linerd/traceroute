@@ -12,12 +12,20 @@ public class traceroute {
 	static String indexURL = "http://www.traceroute.org/";
 
 	public static void main(String[] args) throws Exception {
-		// String ip = args[0];
-		String ip = "166.111.132.123";
-		// String filename = args[1];
-		FileOutputStream fos = new FileOutputStream("inputs");
-		FileOutputStream fos2 = new FileOutputStream("options");
-		FileOutputStream fos3 = new FileOutputStream("radios");
+		String ip;
+		if (args.length >= 1)
+			ip = args[0];
+		else
+			ip = "166.111.132.123";
+		// String ip = "166.111.132.123";
+		String filename;
+		if (args.length >= 2)
+			filename = args[1];
+		else
+			filename = "test.txt";
+		FileOutputStream fos = new FileOutputStream(filename);
+		// FileOutputStream fos2 = new FileOutputStream("options");
+		// FileOutputStream fos3 = new FileOutputStream("radios");
 		// connect to the traceroute index
 		Document doc = Jsoup.connect(indexURL).timeout(10000).get();
 		// find the list of countries
@@ -181,7 +189,7 @@ public class traceroute {
 								postData.put(radio.attr("name"),
 										radio.attr("value"));
 							else
-								getData += (radio.attr("name") + radio
+								getData += (radio.attr("name") + "=" + radio
 										.attr("value"));
 							// System.out.println("radio[" + radio.attributes()
 							// + "]");
@@ -190,19 +198,26 @@ public class traceroute {
 							// .getBytes());
 						}
 						if (isPost) {
+							if (postData.size() < 1)
+								continue;
 							System.out.println(postData);
 							Document result = Jsoup.connect(action)
 									.data(postData).timeout(0).post();
 							System.out.println(result);
+							fos.write((result.toString() + "\n").getBytes());
 						} else {
+							if (getData.length() < 10)
+								continue;
 							if (getData.endsWith("&"))
 								getData = getData.substring(0,
 										getData.length() - 1);
+							getData.replace(' ', '+');
 							System.out.println(getData);
 							action += getData;
 							Document result = Jsoup.connect(action).timeout(0)
 									.get();
 							System.out.println(result);
+							fos.write((result.toString() + "\n").getBytes());
 						}
 					}
 
@@ -230,7 +245,7 @@ public class traceroute {
 			System.out.println("\n\n");
 		}
 		fos.close();
-		fos2.close();
-		fos3.close();
+		// fos2.close();
+		// fos3.close();
 	}
 }
